@@ -1,0 +1,100 @@
+{"id"=>10, "flight_id"=>8, "name"=>"strat_one", "control_group"=>false, "margin_goal"=>nil, "user_partition"=>40, "spend_intensity"=>"1.0", "frequency_ramp_begin"=>"4 Days", "frequency_ramp_end"=>"5 Days", "minimum_bid"=>"0.5", "maximum_spend"=>"5.0", "created_at"=>"2013-07-14T23:23:15.733Z", "updated_at"=>"2013-07-16T15:06:19.064Z", "cost"=>"1071.37709", "cpm"=>"0.75556", "impressions"=>1418, "frequencyRampBegin"=>345600, "frequencyRampEnd"=>432000, "maxBid"=>"4.94", "minBid"=>"0.5", "overPacingFactor"=>1.1, "creatives"=>{"728x90"=>"6321703", "300x250"=>"6321662", "160x600"=>"6321693"}, "flightStartDate"=>"2013-07-16T00:00:00Z", "flightEndDate"=>"2013-07-17T00:00:00Z", "costOffset"=>0.06, "campaignId"=>1, "budget"=>1.2, "versionNumber"=>455, "target"=>"_strat_one", "rateType"=>"CPA", "pause"=>false, "marginGoal"=>nil, "impressionsGoal"=>nil, "flightRevenueCPM"=>0.0, "_links"=>{"self"=>{"href"=>"/strategies/10"}}}
+{"id"=>9, "flight_id"=>7, "name"=>"strat_one", "control_group"=>false, "margin_goal"=>50, "user_partition"=>100, "spend_intensity"=>"1.0", "frequency_ramp_begin"=>"4 Days", "frequency_ramp_end"=>"5 Days", "minimum_bid"=>"0.0", "maximum_spend"=>"5.0", "created_at"=>"2013-06-27T15:39:42.927Z", "updated_at"=>"2013-07-16T15:06:19.051Z", "cost"=>"200349.89123", "cpm"=>"0.92737", "impressions"=>216041, "frequencyRampBegin"=>345600, "frequencyRampEnd"=>432000, "maxBid"=>"4.94", "minBid"=>"0.0", "overPacingFactor"=>1.1, "creatives"=>{"728x90"=>"6321703", "300x250"=>"6321662", "160x600"=>"6321693"}, "flightStartDate"=>"2013-07-09T00:00:00Z", "flightEndDate"=>"2013-07-10T00:00:00Z", "costOffset"=>0.06, "campaignId"=>1, "budget"=>0, "versionNumber"=>5777, "target"=>"_strat_one", "rateType"=>"CPM", "pause"=>false, "marginGoal"=>50, "impressionsGoal"=>216000, "flightRevenueCPM"=>1.85, "_links"=>{"self"=>{"href"=>"/strategies/9"}}}
+{"id"=>8, "flight_id"=>6, "name"=>"strat_one", "control_group"=>false, "margin_goal"=>nil, "user_partition"=>100, "spend_intensity"=>"1.0", "frequency_ramp_begin"=>"1000 Days", "frequency_ramp_end"=>"1000 Days", "minimum_bid"=>"0.3", "maximum_spend"=>"5.0", "created_at"=>"2013-06-13T21:12:16.475Z", "updated_at"=>"2013-07-16T15:06:19.039Z", "cost"=>"300005.73029", "cpm"=>"0.57337", "impressions"=>523235, "frequencyRampBegin"=>86400000, "frequencyRampEnd"=>86400000, "maxBid"=>"4.94", "minBid"=>"0.3", "overPacingFactor"=>1.1, "creatives"=>{"300x250"=>"6321662", "160x600"=>"6321693", "728x90"=>"6321703"}, "flightStartDate"=>"2013-06-14T00:00:00Z", "flightEndDate"=>"2013-06-17T00:00:00Z", "costOffset"=>0.06, "campaignId"=>1, "budget"=>3.0, "versionNumber"=>17742, "target"=>"_strat_one", "rateType"=>"CPA", "pause"=>false, "marginGoal"=>nil, "impressionsGoal"=>nil, "flightRevenueCPM"=>0.0, "_links"=>{"self"=>{"href"=>"/strategies/8"}}}
+{"id"=>7, "flight_id"=>5, "name"=>"strat_one", "control_group"=>false, "margin_goal"=>nil, "user_partition"=>100, "spend_intensity"=>"1.0", "frequency_ramp_begin"=>"1000 Days", "frequency_ramp_end"=>"1000 Days", "minimum_bid"=>"1.0", "maximum_spend"=>"5.0", "created_at"=>"2013-06-12T21:48:02.915Z", "updated_at"=>"2013-07-16T15:06:19.028Z", "cost"=>"199991.15426", "cpm"=>"1.48501", "impressions"=>134673, "frequencyRampBegin"=>86400000, "frequencyRampEnd"=>86400000, "maxBid"=>"4.94", "minBid"=>"1.0", "overPacingFactor"=>1.1, "creatives"=>{"300x250"=>"6321662", "160x600"=>"6321693", "728x90"=>"6321703"}, "flightStartDate"=>"2013-06-13T00:00:00Z", "flightEndDate"=>"2013-06-14T00:00:00Z", "costOffset"=>0.06, "campaignId"=>2, "budget"=>2.0, "versionNumber"=>12654, "target"=>"_strat_one", "rateType"=>"CPA", "pause"=>false, "marginGoal"=>nil, "impressionsGoal"=>nil, "flightRevenueCPM"=>0.0, "_links"=>{"self"=>{"href"=>"/strategies/7"}}}
+{"id"=>6, "flight_id"=>4, "name"=>"strat_one", "control_group"=>false, "margin_goal"=>nil, "user_partition"=>100, "spend_intensity"=>"1.0", "frequency_ramp_begin"=>"1 Hours", "frequency_ramp_end"=>"3 Hours", "minimum_bid"=>"0.5", "maximum_spend"=>"5.0", "created_at"=>"2013-06-11T23:01:46.870Z", "updated_at"=>"2013-07-16T15:06:19.016Z", "cost"=>"200005.74926", "cpm"=>"0.89761", "impressions"=>222820, "frequencyRampBegin"=>3600, "frequencyRampEnd"=>10800, "maxBid"=>"4.94", "minBid"=>"0.5", "overPacingFactor"=>1.1, "creatives"=>{"728x90"=>"6321703", "300x250"=>"6321662", "160x600"=>"6321693"}, "flightStartDate"=>"2013-06-12T00:00:00Z", "flightEndDate"=>"2013-06-13T00:00:00Z", "costOffset"=>0.06, "campaignId"=>1, "budget"=>2.0, "versionNumber"=>12654, "target"=>"_strat_one", "rateType"=>"CPA", "pause"=>false, "marginGoal"=>nil, "impressionsGoal"=>nil, "flightRevenueCPM"=>0.0, "_links"=>{"self"=>{"href"=>"/strategies/6"}}}
+{"id"=>3, "flight_id"=>3, "name"=>"strat_one", "control_group"=>false, "margin_goal"=>nil, "user_partition"=>100, "spend_intensity"=>"1.0", "frequency_ramp_begin"=>"1000 Days", "frequency_ramp_end"=>"1000 Days", "minimum_bid"=>"0.0", "maximum_spend"=>"5.0", "created_at"=>"2013-06-05T19:56:40.051Z", "updated_at"=>"2013-07-16T15:06:19.004Z", "cost"=>"600013.02824", "cpm"=>"0.47299", "impressions"=>1268560, "frequencyRampBegin"=>86400000, "frequencyRampEnd"=>86400000, "maxBid"=>"4.94", "minBid"=>"0.0", "overPacingFactor"=>1.1, "creatives"=>{"728x90"=>"6321703", "300x250"=>"6321662", "160x600"=>"6321693"}, "flightStartDate"=>"2013-06-09T00:00:00Z", "flightEndDate"=>"2013-06-12T00:00:00Z", "costOffset"=>0.06, "campaignId"=>2, "budget"=>6.0, "versionNumber"=>12682, "target"=>"_strat_one", "rateType"=>"CPA", "pause"=>false, "marginGoal"=>nil, "impressionsGoal"=>nil, "flightRevenueCPM"=>0.0, "_links"=>{"self"=>{"href"=>"/strategies/3"}}}
+{"id"=>2, "flight_id"=>1, "name"=>"strat_one", "control_group"=>true, "margin_goal"=>nil, "user_partition"=>100, "spend_intensity"=>"1.0", "frequency_ramp_begin"=>"1000 Days", "frequency_ramp_end"=>"1000 Days", "minimum_bid"=>"0.01", "maximum_spend"=>"1.0", "created_at"=>"2013-04-22T12:54:34.935Z", "updated_at"=>"2013-07-16T15:06:18.967Z", "cost"=>"199989.69954", "cpm"=>"0.26719", "impressions"=>748495, "frequencyRampBegin"=>86400000, "frequencyRampEnd"=>86400000, "maxBid"=>"0.94", "minBid"=>"0.01", "overPacingFactor"=>1.1, "creatives"=>{"728x90"=>"6321703", "160x600"=>"6321693", "300x250"=>"6321662"}, "flightStartDate"=>"2013-06-05T00:00:00Z", "flightEndDate"=>"2013-06-06T00:00:00Z", "costOffset"=>0.06, "campaignId"=>1, "budget"=>2.0, "versionNumber"=>12692, "target"=>"_strat_one", "rateType"=>"CPA", "pause"=>false, "marginGoal"=>nil, "impressionsGoal"=>nil, "flightRevenueCPM"=>0.0, "_links"=>{"self"=>{"href"=>"/strategies/2"}}}
+]
+[{:y => 5}, {:y => 6}]
+[{:y => 5}, {:y => 6}].reduce(0){|val| val[:y]}
+foo = [{:y => 5}, {:y => 6}]
+foo.reduce{|val| val[:y]}
+foo.reduce(:+){|val| val[:y]}
+foo.reduce(0){|val| val[:y]}
+foo << {:y => 5}
+foo.reduce(0){|sum, val| sum += val[:y]}
+foo.reduce(0){|sum, val| sum + val[:y]}
+foo = [1, 2, 3, 45]
+foo.reduce(""){|s| s.to_s}
+foo.reduce(""){|s| s.to_s; s}}
+foo.reduce(""){|m, s| m << s.to_s; m}}
+foo.reduce(""){|m, s| m << s.to_s; m}
+foo.reduce(""){|m, s| m+ s.to_s; m}
+foo.reduce(""){|m, i| m<<i.to_s; m}
+def FizzBuzz
+FizzBuzz
+[1..100].each do |i|
+  print Fizz  if i % 3 == 0
+  print Buzz if i % 5 == 0
+  puts '---'
+(1..100).each do |i|
+  print 'Fizz'  if i % 3 == 0
+  print 'Buzz' if i % 5 == 0
+  puts ' '
+end
+require('gmail')
+g = gmail.login('tennisplayer2341@gmail.com', 'jclczopztcfqzsgs')
+g = Gmail.login('tennisplayer2341@gmail.com', 'jclczopztcfqzsgs')
+username = 'tennisplayer2341@gmail.com'
+pword = 'jclczopztcfqzsgs'
+g = gmail.login(username, pword)
+gmail = Gmail.connect(username, pword)
+g.inbox.emails[0]
+gmail.inbox.emails[0]
+email = gmail.inbox.emails[0]
+email.message
+email.message.class
+email.message.Headers
+email.message.subject
+email.message.on
+email.message.body
+email = gmail.mailbox('SMS').emails[0]
+puts email.body
+puts email.body.inspect
+puts email.body.class
+puts email.methods
+puts email.to_imap_date
+sms_list = gmail.mailbox('SMS').emails.reduce([]){|l, v| return {v.to_imap_date => v.body}
+}
+sms_list = gmail.mailbox('SMS').emails.reduce([]){|l, v| list.push({v.to_imap_date => v.body}); list}
+sms_list = gmail.mailbox('SMS').emails.reduce([]){|list, v| list.push({v.to_imap_date => v.body}); list}
+ls
+d = {1 => 10, 2 => 20, 3 => 30}
+temp = []
+    d.each_pair {|k, v| temp.push({x: k, y: v}) }
+temp
+d.map([]){|list, (k, v)| list.push({x: k, y: v}) }
+d.reduce([]){|list, (k, v)| list.push({x: k, y: v}) }
+Time.now.getutc
+Time.now.getutc.gsub(/\s+/, "")
+Time.now.getutc.class
+Time.now.getutc.to_sgsub(/\s+/, "")
+Time.now.getutc.to_s.gsub(/\s+/, "")
+Time.now.getutc.to_s.gsub(/\s+/, "")[0..-3]
+Time.now.getutc.to_s.gsub(/\s+/, "")[0..-
+require 'rest_client'
+    response = RestClient.get 'http://dorado01.nym1.an.collective-media.net:8080/statistics?after=' + Time.now.getutc.to_s.gsub(/\s+/, "")[0..-4]
+Time.now.getutc.to_s.gsub(/\s+/, "")[0..-4]
+Time.now.getutc.to_s
+Time.now.getutc.to_s.gsub(/\s+/, "T")[0..-4]
+Time.now.getutc.to_s.gsub(/\s+/, "T")[0..-5]
+foo = [{:x=>1377443940, :y=>0}, {:x=>1377444000, :y=>0}, {:x=>1377444060, :y=>0}, {:x=>1377444120, :y=>0}, {:x=>1377444180, :y=>0}, {:x=>1377444240, :y=>0}, {:x=>1377444300, :y=>0}, {:x=>1377444360, :y=>0}, {:x=>1377444420, :y=>0}, {:x=>1377444480, :y=>0}, {:x=>1377444540, :y=>0}, {:x=>1377444600, :y=>0}, {:x=>1377444660, :y=>0}, {:x=>1377444720, :y=>0}, {:x=>1377444780, :y=>0}, {:x=>1377444840, :y=>0}, {:x=>1377444900, :y=>0}, {:x=>1377444960, :y=>0}, {:x=>1377445020, :y=>0}, {:x=>1377445080, :y=>0}, {:x=>1377445140, :y=>0}, {:x=>1377445200, :y=>0}, {:x=>1377445260, :y=>0}, {:x=>1377445320, :y=>0}, {:x=>1377445380, :y=>0}, {:x=>1377445440, :y=>0}, {:x=>1377445500, :y=>0}, {:x=>1377445560, :y=>0}, {:x=>1377445620, :y=>0}, {:x=>1377445680, :y=>0}, {:x=>1377445740, :y=>0}, {:x=>1377445800, :y=>0}, {:x=>1377445860, :y=>0}, {:x=>1377445920, :y=>0}, {:x=>1377445980, :y=>0}, {:x=>1377446040, :y=>0}, {:x=>1377446100, :y=>0}, {:x=>1377446160, :y=>0}, {:x=>1377446220, :y=>0}, {:x=>1377446280, :y=>0}, {:x=>1377446340, :y=>0}, {:x=>1377446400, :y=>0}, {:x=>1377446460, :y=>0}, {:x=>1377446520, :y=>0}, {:x=>1377446580, :y=>0}, {:x=>1377446640, :y=>0}, {:x=>1377446700, :y=>0}, {:x=>1377446760, :y=>0}, {:x=>1377446820, :y=>0}, {:x=>1377446880, :y=>0}, {:x=>1377446940, :y=>0}, {:x=>1377447000, :y=>0}, {:x=>1377447060, :y=>0}, {:x=>1377447120, :y=>0}, {:x=>1377447180, :y=>0}, {:x=>1377447240, :y=>0}, {:x=>1377447300, :y=>0}, {:x=>1377447360, :y=>0}, {:x=>1377447420, :y=>0}, {:x=>1377447480, :y=>0}, {:x=>1377447481, :y=>0.0}]
+def display_mean(exclude_zeros = true)
+    @data.each do |datum|
+def display_mean(data, exclude_zeros = true)
+    size = 0
+    sum = 0
+    data.each do |datum|
+      if datum[:y]!=0 or !exclude_zeros
+        sum += datum[:y]
+        size += 1
+      end
+    if size == 0
+      0
+    else
+      sum / size
+    end
+  end
+display_mean(foo)
+nil

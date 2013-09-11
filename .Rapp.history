@@ -1,0 +1,124 @@
+cd
+getwd()
+mydata = read.csv("Downloads/vehicles.csv")
+mydata
+attributes(myData)
+attributes(mydata)
+library('XML')
+install.packages('RCurl', 'XML')
+library('RCurl')
+library('XML')
+install.packages('XML')
+library('XML')
+for(i in 1:length(mydata)) {carXML = getURL('http://www.fueleconomy.gov/ws/rest/ympg/shared/ympgVehicle/{id}')
+mpg
+mp
+quit
+}
+mpg
+source("/Users/brent/Documents/mpg.R")
+hello
+"hello" + 5
+"hello" + string(5)
+"hello" + as.character(5)
+5
+paste("string", 5)
+mpg
+source("/Users/brent/Documents/mpg.R")
+mydata
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+r = getCarData(1)
+xmlName(r)
+xmlSize(r)
+r
+r["avgMpg"]
+r[]["avgMpg"]]
+r[["avgMpg"]]
+r["avgMpg"][0]
+r["avgMpg"]
+r$avgMpg
+r["avgMpg"]
+xmlValue(r["avgMpg"])
+foreach(XMLNode node in r) {}
+foreach(XMLNode node in r) {print(node)}
+foreach (XMLNode node in r) {print(node)}
+foreach (XmlNode node in r) {print(node)}
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+d = getCarData(1)
+d
+d$avgMpg
+class(d$avgMpg)
+xmlValue(d$avgMpg)
+source("/Users/brent/Documents/mpg.R")
+getCarData(1)
+colnames(mydata)
+mydata[1,"comb08"] - mydata[1, "combA08U"]
+mydata[1,"comb08"]
+mydata[1,"comb08"] - mydata[1, "combA08U"]
+mydata[1, "combA08U"
+]
+mydata[1,"comb08"] - mydata[1, "combA08"]
+source("/Users/brent/Documents/mpg.R")
+loadData
+loadData()
+source("/Users/brent/Documents/mpg.R")
+loadData()
+mpg
+loadData()
+source("/Users/brent/Documents/mpg.R")
+loadData()
+loadData()

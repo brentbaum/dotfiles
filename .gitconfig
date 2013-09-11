@@ -1,0 +1,7 @@
+[user]
+	name = bbaumgar
+	email = bwb8ta@virginia.edu
+[core]
+	editor = /usr/bin/vim
+[help]
+	autocorrect = 1
