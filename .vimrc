@@ -1,5 +1,12 @@
  set nocompatible               " be iMproved
- filetype off                   " required!
+ set hlsearch
+ filetype off                  " required!
+
+" Some Linux distributions set filetype in /etc/vimrc.
+" Clear filetype flags before changing runtimepath to force Vim to reload them.
+filetype plugin indent off
+set runtimepath+=$GOROOT/misc/vim
+filetype plugin indent on
 
  so ~/.vim/plugins/autoclose.vim
 
@@ -23,7 +30,7 @@
  Bundle 'git://git.wincent.com/command-t.git'
  " git repos on your local machine (ie. when working on your own plugin)
  Bundle 'Valloric/YouCompleteMe'
- " ...
+ Bundle 'altercation/vim-colors-solarized'
 
  filetype plugin indent on     " required!
  "
@@ -36,11 +43,6 @@
  " see :h vundle for more details or wiki for FAQ
  " NOTE: comments after Bundle command are not allowed..
 
- " VIM Configuration File
- " Description: Optimized for C/C++ development, but useful also for other things.
- " Author: Gerhard Gappmeier
- " 
- 
  " set UTF-8 encoding
  set enc=utf-8
  set fenc=utf-8
@@ -55,8 +57,6 @@
  set tabstop=4        " tab width is 4 spaces
  set shiftwidth=4     " indent also with 4 spaces
  set expandtab        " expand tabs to spaces
- " wrap lines at 120 chars. 80 is somewaht antiquated with nowadays displays.
- set textwidth=120
  " turn syntax highlighting on
  set t_Co=256
  syntax on
@@ -75,10 +75,6 @@
  set tags+=~/.vim/tags/sdl
  set tags+=~/.vim/tags/qt4  
 
- " Install DoxygenToolkit from http://www.vim.org/scripts/script.php?script_id=987
-
- " Enhanced keyboard mappings
- "
  " in normal mode F2 will save the file
  nmap <F2> :w<CR>
  " in insert mode F2 will exit insert, save, enters insert again
@@ -87,29 +83,28 @@
  map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
  " recreate tags file with F5
  map <F5> :!ctags -R –c++-kinds=+p –fields=+iaS –extra=+q .<CR>
- " create doxygen comment
- map <F6> :Dox<CR>
- " build using makeprg with <F7>
- map <F7> :make<CR>
- " build using makeprg with <S-F7>
- map <S-F7> :make clean all<CR>
- " goto definition with F12
- map <F12> <C-]>
- " in diff mode we use the spell check keys for merging
- if &diff
-   " diff settings
-   map <M-Down> ]c
-   map <M-Up> [c
-   map <M-Left> do
-   map <M-Right> dp
-   map <F9> :new<CR>:read !svn diff<CR>:set syntax=diff buftype=nofile<CR>gg
- else
-   " spell settings
-   :setlocal spell spelllang=en
-   " set the spellfile - folders must exist
-   set spellfile=~/.vim/spellfile.add
-   map <M-Down> ]s
-   map <M-Up> [s
- endif
 
  imap jj <Esc>
+ command! Compilec !clang++ -g *.cpp
+
+try 
+    set background=dark
+    colorscheme solarized
+catch /E185:/
+    colorscheme default
+endtry
+
+ if exists('g:colors_name') && g:colors_name == 'solarized'
+     if has('gui_macvim')
+         set transparency=0
+     endif
+
+     if !has('gui_running') && $TERM_PROGRAM == 'Apple_Terminal'
+         let g:solarized_termcolors = &t_Co
+         let g:solarized_termtrans = 1
+         colorscheme solarized
+         if &background == 'dark'
+             hi Visual term=reverse cterm=reverse ctermfg=10 ctermbg=7
+         endif
+     endif
+ endif

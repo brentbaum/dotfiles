@@ -7,6 +7,9 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
 
+#RVM
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
+
 alias vim="mvim -v"
 alias datarep="~/Dropbox/School\ Fall\ 2013/Program\ \&\ Data\ Rep/"
 alias school="~/Dropbox/School\ Fall\ 2013"
@@ -47,8 +50,6 @@ alias radar="~/Dropbox/Collective/radar"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(brew gem npm ruby rvm web-search zsh-syntax-highlighting)
 
-#Path to RVM
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
 
 source $ZSH/oh-my-zsh.sh
