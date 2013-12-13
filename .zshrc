@@ -1,20 +1,42 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
+homebrew=/usr/local/bin:/usr/local/sbin
+export PATH=$homebrew:$PATH
+
+JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0
+export PATH=$JAVA_HOME/bin:$PATH
+
+[[ -d "${HOME}/bin" ]] && export PATH="${HOME}/bin:${PATH}"
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
-
+#
 #RVM
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
+#NVM
+[ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh # This loads NVM
+
 
 alias vim="mvim -v"
-alias datarep="~/Dropbox/School\ Fall\ 2013/Program\ \&\ Data\ Rep/"
 alias school="~/Dropbox/School\ Fall\ 2013"
 alias dash="~/Dropbox/Collective/Dash"
+datarep=~/Dropbox/School\ Fall\ 2013/Program\ \&\ Data\ Rep/
 alias radar="~/Dropbox/Collective/radar"
+
+function shortcut {
+    local foo=$(pwd)
+    echo "$1=$foo" >> ~/.zshrc
+    zsh
+    cd $($foo)
+}
+
+export GOPATH=~/Go
+
+export CLASSPATH="$CLASSPATH:$HOME/bin/leiningen-2.0.0-preview10-standalone.jar"
+
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
@@ -54,3 +76,10 @@ plugins=(brew gem npm ruby rvm web-search zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
+function chpwd() {
+    emulate -L zsh
+    ls -a
+}
+clojuredev=/Users/brent/Dropbox/Development/test_project
+puzzle=/Users/brent/Dropbox/Development/test_project/src/test_project
+cloj=/Users/brent/Dropbox/Development/clojure

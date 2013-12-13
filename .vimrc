@@ -1,17 +1,18 @@
  set nocompatible               " be iMproved
  set hlsearch
- filetype off                  " required!
 
 " Some Linux distributions set filetype in /etc/vimrc.
 " Clear filetype flags before changing runtimepath to force Vim to reload them.
+filetype off
 filetype plugin indent off
 set runtimepath+=$GOROOT/misc/vim
 filetype plugin indent on
-
- so ~/.vim/plugins/autoclose.vim
+syntax on
 
  set rtp+=~/.vim/bundle/vundle/
  call vundle#rc()
+
+ execute pathogen#infect()
 
  " let Vundle manage Vundle
  " required! 
@@ -28,9 +29,21 @@ filetype plugin indent on
  Bundle 'L9'
  " non github repos
  Bundle 'git://git.wincent.com/command-t.git'
- " git repos on your local machine (ie. when working on your own plugin)
+ "
  Bundle 'Valloric/YouCompleteMe'
  Bundle 'altercation/vim-colors-solarized'
+ let g:syntastic_cpp_checkers=['ycm', 'gcc']
+ let g:syntastic_c_checkers=['ycm', 'gcc', 'make']
+ let g:syntastic_cpp_check_header = 1
+ Bundle 'scrooloose/syntastic'
+
+ Bundle 'guns/vim-clojure-static'
+ Bundle 'kien/rainbow_parentheses.vim'
+ Bundle 'vim-scripts/paredit.vim'
+ Bundle 'tpope/vim-fireplace'
+
+ so ~/.vim/plugins/autoclose.vim
+
 
  filetype plugin indent on     " required!
  "
@@ -59,7 +72,6 @@ filetype plugin indent on
  set expandtab        " expand tabs to spaces
  " turn syntax highlighting on
  set t_Co=256
- syntax on
  " turn line numbers on
  set number
  " highlight matching braces
@@ -84,7 +96,24 @@ filetype plugin indent on
  " recreate tags file with F5
  map <F5> :!ctags -R –c++-kinds=+p –fields=+iaS –extra=+q .<CR>
 
+ map <F6> :Compilec<CR>:!./a.out<CR>
+
+ map <F7> :Compilec<CR>:!gdb a.out<CR>
+
+ set langmap=hk,jh,kj
+
  imap jj <Esc>
+ 
+ nnoremap <C-e> :Eval<CR>
+ nnoremap E :%Eval <CR>
+
+ "Yank text to the OSX clipboard
+ noremap <leader>y "*y
+ noremap <leader>yy "*Y
+ "Preserve indentation when pasting from clipboard.
+ noremap <leader>p :set paste<CR>:put *<CR>:set nopaste<CR>
+
+
  command! Compilec !clang++ -g *.cpp
 
 try 
@@ -108,3 +137,8 @@ endtry
          endif
      endif
  endif
+
+ " Turn off annoying confirmation to use .ycm_extra_conf.py file."
+ let g:ycm_confirm_extra_conf = 0
+
+ let loaded_matchparen = 0

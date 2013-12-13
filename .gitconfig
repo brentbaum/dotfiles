@@ -3,5 +3,6 @@
 	email = bwb8ta@virginia.edu
 [core]
 	editor = /usr/bin/vim
+	autocrlf = input
 [help]
 	autocorrect = 1

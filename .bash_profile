@@ -9,3 +9,5 @@ PATH="$PATH:$GOPATH/bin"
 export PATH="//anaconda/bin:$PATH"
 
 alias mvim='mvim -v'
+
+[ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh # This loads NVM
