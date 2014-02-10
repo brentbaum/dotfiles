@@ -1,10 +1,22 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
+
 homebrew=/usr/local/bin:/usr/local/sbin
 export PATH=$homebrew:$PATH
+gcclinux=/usr/local/gcc-4.8.1-for-linux64/bin
+export PATH=$gcclinux:$PATH
+
+export CC=/usr/bin/gcc-4.2
+export CXX=/usr/bin/g++-4.2
+export CPP=/usr/bin/cpp-4.2
+export LD=/usr/bin/gcc-4.2
+
+export TERM=xterm-16color Emacs 
 
 JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0
 export PATH=$JAVA_HOME/bin:$PATH
+
+export PATH=/usr/texbin:$PATH
 
 [[ -d "${HOME}/bin" ]] && export PATH="${HOME}/bin:${PATH}"
 
@@ -15,12 +27,17 @@ export PATH=$JAVA_HOME/bin:$PATH
 ZSH_THEME="robbyrussell"
 #
 #RVM
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 #NVM
 [ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh # This loads NVM
 
 
 alias vim="mvim -v"
+alias j="autojump"
+alias e=/Applications/Emacs.app/Contents/MacOS/Emacs "$@"
+alias es=/Applications/Emacs.app/Contents/MacOS/Emacs --daemon
+# alias emacs="/usr/local/bin/emacsclient -ct"
+# alias es="/usr/local/bin/emacs --daemon"
 alias school="~/Dropbox/School\ Fall\ 2013"
 alias dash="~/Dropbox/Collective/Dash"
 datarep=~/Dropbox/School\ Fall\ 2013/Program\ \&\ Data\ Rep/
@@ -31,6 +48,13 @@ function shortcut {
     echo "$1=$foo" >> ~/.zshrc
     zsh
     cd $($foo)
+}
+
+function makepdf {
+    echo "Let me get on that..."
+    latexmk -pdf $1
+    rm $1.log $1.fdb_latexmk $1.fls $1.aux
+    echo "Finished!"
 }
 
 export GOPATH=~/Go
@@ -76,6 +100,8 @@ plugins=(brew gem npm ruby rvm web-search zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
+# bindkey -v
+
 function chpwd() {
     emulate -L zsh
     ls -a
@@ -83,3 +109,8 @@ function chpwd() {
 clojuredev=/Users/brent/Dropbox/Development/test_project
 puzzle=/Users/brent/Dropbox/Development/test_project/src/test_project
 cloj=/Users/brent/Dropbox/Development/clojure
+os=/Users/brent/Dropbox/Development/os
+matcher=/Users/brent/Dropbox/Development/clojure/matcher
+alg=/Users/brent/Dropbox/school_spring_2014/algorithms
+fish=/Users/brent/Dropbox/Development/fisheatfish
+school=/Users/brent/Dropbox/school_spring_2014

@@ -30,6 +30,14 @@ set ignorecase
 set ruler
 set showcmd
 
+" No swaps :)
+set nobackup
+set nowb
+set noswapfile
+
+" Autosave when switching buffers
+"set autowrite
+
 "Leader
 let mapleader = ","
 
@@ -89,6 +97,9 @@ set langmap=hk,jh,kj
 "Clojure eval
 nnoremap <C-e> :Eval<CR>
 nnoremap E :%Eval <CR>
+
+nnoremap ; :
+nnoremap : ;
 
 "Map Command-T plugin to ,t
 nnoremap <leader>t :CommandT 
