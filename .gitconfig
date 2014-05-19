@@ -1,8 +1,20 @@
 [user]
-	name = bbaumgar
-	email = bwb8ta@virginia.edu
+	name = Brent Baumgartner
+	email = brent@brentbaum.com
 [core]
-	editor = /usr/bin/vim
+	editor = atom --wait
 	autocrlf = input
+	excludesfile = /Users/brent/.gitignore_global
 [help]
 	autocorrect = 1
+[push]
+	default = simple
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

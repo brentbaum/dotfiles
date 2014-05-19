@@ -1,17 +1,14 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
+
 homebrew=/usr/local/bin:/usr/local/sbin
 export PATH=$homebrew:$PATH
-gcclinux=/usr/local/gcc-4.8.1-for-linux64/bin
-export PATH=$gcclinux:$PATH
-
-export CC=/usr/bin/gcc-4.2
-export CXX=/usr/bin/g++-4.2
-export CPP=/usr/bin/cpp-4.2
-export LD=/usr/bin/gcc-4.2
 
 export TERM=xterm-16color Emacs 
+
+export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
+export PYTHONPATH="/usr/local/Cellar/opencv/2.4.9/lib/python2.7/site-packages/:$PYTHONPATH"
 
 JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0
 export PATH=$JAVA_HOME/bin:$PATH
@@ -54,6 +51,7 @@ function makepdf {
     echo "Let me get on that..."
     latexmk -pdf $1
     rm $1.log $1.fdb_latexmk $1.fls $1.aux
+    open $1.pdf
     echo "Finished!"
 }
 
@@ -114,3 +112,6 @@ matcher=/Users/brent/Dropbox/Development/clojure/matcher
 alg=/Users/brent/Dropbox/school_spring_2014/algorithms
 fish=/Users/brent/Dropbox/Development/fisheatfish
 school=/Users/brent/Dropbox/school_spring_2014
+edu=/Users/brent/Dropbox/Development/edu-
+scrappy=/Users/brent/Dropbox/Development/clojure/scrappy
+classify=/Users/brent/Dropbox/school_spring_2014/ai/classify-me-captain

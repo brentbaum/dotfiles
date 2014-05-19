@@ -104,10 +104,6 @@ nnoremap : ;
 "Map Command-T plugin to ,t
 nnoremap <leader>t :CommandT 
 
-"Yank text to the OSX clipboard
-noremap <leader>y "*y
-noremap <leader>yy "*Y
-
 "Preserve indentation when pasting from clipboard.
 noremap <leader>p :set paste<CR>:put *<CR>:set nopaste<CR>
 
