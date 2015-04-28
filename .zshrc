@@ -7,13 +7,17 @@ export PATH=$homebrew:$PATH
 
 export TERM=xterm-16color Emacs 
 
-export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
-export PYTHONPATH="/usr/local/Cellar/opencv/2.4.9/lib/python2.7/site-packages/:$PYTHONPATH"
+export PATH=/usr/local/lib/python3.4/site-packages:$PATH
+alias python='python3'
+alias pip='pip'
 
-JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0
+export JAVA_HOME=$(/usr/libexec/java_home) 
 export PATH=$JAVA_HOME/bin:$PATH
 
 export PATH=/usr/texbin:$PATH
+export PATH=/Users/brent/Library/Haskell/bin:$PATH
+
+export ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future
 
 [[ -d "${HOME}/bin" ]] && export PATH="${HOME}/bin:${PATH}"
 
@@ -29,13 +33,11 @@ ZSH_THEME="robbyrussell"
 [ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh # This loads NVM
 
 
-alias vim="mvim -v"
 alias j="autojump"
 alias e=/Applications/Emacs.app/Contents/MacOS/Emacs "$@"
 alias es=/Applications/Emacs.app/Contents/MacOS/Emacs --daemon
 # alias emacs="/usr/local/bin/emacsclient -ct"
 # alias es="/usr/local/bin/emacs --daemon"
-alias school="~/Dropbox/School\ Fall\ 2013"
 alias dash="~/Dropbox/Collective/Dash"
 datarep=~/Dropbox/School\ Fall\ 2013/Program\ \&\ Data\ Rep/
 alias radar="~/Dropbox/Collective/radar"
@@ -58,6 +60,10 @@ function makepdf {
 export GOPATH=~/Go
 
 export CLASSPATH="$CLASSPATH:$HOME/bin/leiningen-2.0.0-preview10-standalone.jar"
+# make lein cljsbuild fast.
+LEIN_FAST_TRAMPOLINE=y
+export LEIN_FAST_TRAMPOLINE
+alias cljsbuild="lein trampoline cljsbuild $@"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -104,14 +110,9 @@ function chpwd() {
     emulate -L zsh
     ls -a
 }
-clojuredev=/Users/brent/Dropbox/Development/test_project
-puzzle=/Users/brent/Dropbox/Development/test_project/src/test_project
-cloj=/Users/brent/Dropbox/Development/clojure
-os=/Users/brent/Dropbox/Development/os
-matcher=/Users/brent/Dropbox/Development/clojure/matcher
 alg=/Users/brent/Dropbox/school_spring_2014/algorithms
-fish=/Users/brent/Dropbox/Development/fisheatfish
 school=/Users/brent/Dropbox/school_spring_2014
-edu=/Users/brent/Dropbox/Development/edu-
-scrappy=/Users/brent/Dropbox/Development/clojure/scrappy
-classify=/Users/brent/Dropbox/school_spring_2014/ai/classify-me-captain
+edu=/Users/brent/dev/edu-
+school=/Users/brent/Dropbox/school_fall_2014
+graphics=/Users/brent/Dropbox/school_fall_2014/cs4810
+school=/Users/brent/Dropbox/school_spring_2015
