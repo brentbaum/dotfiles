@@ -1,0 +1,6 @@
+bind right:alt    chain push right bar-resize:screenSizeX/2 | corner top-right resize:screenSizeX/2;screenSizeY*3/5 | corner bottom-right resize:screenSizeX/2;screenSizeY*2/5
+bind left:alt     chain push left bar-resize:screenSizeX/2 | corner top-left resize:screenSizeX/2;screenSizeY*3/5 | corner bottom-left resize:screenSizeX/2;screenSizeY*2/5
+bind up:alt       push up    bar-resize:screenSizeY*3/5
+bind down:alt     push down  bar-resize:screenSizeY*2/5
+ 
+bind m:alt    push up    bar-resize:screenSizeY

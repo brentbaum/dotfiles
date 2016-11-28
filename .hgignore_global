@@ -1,0 +1,17 @@
+syntax: glob
+
+*~
+.DS_Store
+.emacs.desktop
+.emacs*
+app.js
+resources/public/js/prod
+edudash.js
+.#*
+*.hi
+*.o
+config.js
+app.css
+frontend/build
+frontend/.tmp
+root/media

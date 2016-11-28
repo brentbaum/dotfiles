@@ -1,0 +1,8 @@
+set last_window_maximized False
+set last_window_width 1060
+set last_window_height 530
+set port /dev/tty.usbmodem1431
+set last_file_path /Users/brent/Downloads/Rocket_Shot_Glass
+set recentfiles ["/Users/brent/Downloads/Rocket_Shot_Glass/Rocket_Shot.STL"]
+set monitor True
+set baudrate 250000

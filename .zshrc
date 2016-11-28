@@ -8,17 +8,21 @@ export PATH=$homebrew:$PATH
 export TERM=xterm-16color Emacs 
 
 export PATH=/usr/local/lib/python3.4/site-packages:$PATH
-alias python='python3'
-alias pip='pip'
+#alias python='python3'
+#alias pip='pip'
+alias ipy="python -c 'import IPython; IPython.terminal.ipapp.launch_new_instance()'"
 
 export JAVA_HOME=$(/usr/libexec/java_home) 
 export PATH=$JAVA_HOME/bin:$PATH
+export PATH=${PATH}:/Applications/Android\ Studio.app/sdk/platform-tools:/Applications/Android\ Studio.app/sdk/tools
 
 export PATH=/usr/texbin:$PATH
 export PATH=/Users/brent/Library/Haskell/bin:$PATH
 
 export ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future
+export GIT_EDITOR=atom
 
+export REPORTTIME=10
 [[ -d "${HOME}/bin" ]] && export PATH="${HOME}/bin:${PATH}"
 
 # Set name of the theme to load.
@@ -61,8 +65,7 @@ export GOPATH=~/Go
 
 export CLASSPATH="$CLASSPATH:$HOME/bin/leiningen-2.0.0-preview10-standalone.jar"
 # make lein cljsbuild fast.
-LEIN_FAST_TRAMPOLINE=y
-export LEIN_FAST_TRAMPOLINE
+export LEIN_FAST_TRAMPOLINE=y
 alias cljsbuild="lein trampoline cljsbuild $@"
 
 # Example aliases
@@ -100,6 +103,7 @@ alias cljsbuild="lein trampoline cljsbuild $@"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(brew gem npm ruby rvm web-search zsh-syntax-highlighting)
 
+eval `opam config env`
 
 
 source $ZSH/oh-my-zsh.sh
@@ -110,9 +114,16 @@ function chpwd() {
     emulate -L zsh
     ls -a
 }
+
+
+
+
 alg=/Users/brent/Dropbox/school_spring_2014/algorithms
 school=/Users/brent/Dropbox/school_spring_2014
 edu=/Users/brent/dev/edu-
 school=/Users/brent/Dropbox/school_fall_2014
 graphics=/Users/brent/Dropbox/school_fall_2014/cs4810
 school=/Users/brent/Dropbox/school_spring_2015
+school=/Users/brent/Dropbox/school_fall_2015
+school=/Users/brent/Dropbox/school_spring_2016
+helme=/Users/brent/dev/edu-

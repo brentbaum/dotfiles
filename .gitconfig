@@ -2,7 +2,7 @@
 	name = Brent Baumgartner
 	email = brent@brentbaum.com
 [core]
-	editor = emacs
+	editor = atom
 	autocrlf = input
 	excludesfile = /Users/brent/.gitignore_global
 [help]

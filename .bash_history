@@ -1,5 +1,3 @@
-ssh 192.168.2.2
-ssh 192.168.2.2
 ssh 192.168.2.2 -l pi
 ssh 192.168.2.2
 fuse-ext2 /dev/disk2s2 /Volumes/raspberrypi
@@ -498,3 +496,5 @@ zsh
 chsh -s `which zsh`
 sl 
 which python
+ls
+zsh

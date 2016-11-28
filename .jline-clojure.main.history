@@ -1,0 +1,6 @@
+uri = "datomic:mem://timeline
+uri = "datomic:mem://timeline"
+Peer.createDatabase(uri);
+uri = "datomic:mem://timeline";
+Peer.createDatabase(uri);
+conn = Peer.connect(uri);

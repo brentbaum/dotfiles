@@ -1,0 +1,13 @@
+---
+configuration:
+  default_profile:
+  - bbombgardener
+  - frtDm6aUzrH1Ia0ev0OqNA
+profiles:
+  bbombgardener:
+    frtDm6aUzrH1Ia0ev0OqNA:
+      username: bbombgardener
+      consumer_key: frtDm6aUzrH1Ia0ev0OqNA
+      consumer_secret: enNRgdjZnQepE2jHYHf9aGtvr1kRAke9x5dmG8hbPk
+      token: 752422021-09Xv2Ox7svRqS37AwfG7k3ybcKEG14Wnjf2d7uCn
+      secret: rOM9cCfuGKAnaWGkg1fSyCsPKqpkQtxiaUFppevx9nGiw

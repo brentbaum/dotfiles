@@ -1,0 +1,64 @@
+let message = "Hello Reason!";
+let result = 100 + 200
+let result = 100 + 200;
+let record = {contents: 100}
+myRecords.contents = 200
+record;
+let record = {contents: 100};
+record
+print_bytes record
+print_string record
+record.hello = 50
+record.hello = 50;
+record;
+[1, 2, ...5]
+[1, 2, ...5];
+let nothing = ()
+;\n;
+let nothing = ();
+type threeFloats = (float, float, float);
+let three = ((20.0, 30.0, 40.0) : threeFloats);
+let three :threeFloats = ((20.0, 30.0, 40.0));
+let tresFloats = threeFloats
+let tresFloats = threeFloats;
+type tresFloats = (threeFloats, int);
+tresFloats = (1, 2, 3)
+tresFloats = (1, 2, 3);
+a:tresFloats = (1, 2, 3);
+a : tresFloats = (1, 2, 3);
+let a : tresFloats = (1, 2, 3);
+let a : tresFloats = ((1, 2, 3), 4);
+let a : tresFloats = ((1., 2., 3.), 4);
+type person = {age: int, name: string};
+let me = {age: 22, name: "Brent"}
+let me = {age: 22, name: "Brent"};
+let you = {ag: 22, name: "Brent"};
+type cyborg = {...person, cpu: string};
+let mutable x: int = 5;
+let mutable int x = 5;
+let x: mutable int = 5;
+let {name: n, age: a} = me;
+a
+a;
+n;
+(fun (a) => (a + 3)) (3)
+(fun (a) => (a + 3)) (3);
+(fun (a, b) => (a + 3 - b)) (3, 1);
+(fun (a, b) => (a + 3 - b)) 3, 1;
+(fun (a, b) => (a + 3 - b)) (3, 1);
+let doSomeMath = fun arg => {\nlet tmp = 2 * arg;\nlet next = 3 * arg;\ntemp * next;\n};
+let doSomeMath = fun arg => {\nlet tmp = 2 * arg;\nlet next = 3 * arg;\ntmp * next;\n};
+doSomeMath 5
+doSomeMath 5;
+let isOverThirty = fun {name: n, age: a} : person => {
+let isOverThirty = fun ({name: n, age: a} : person)\n => {\na > 30\n};
+isOverThirty me;
+let isOverThirty = fun ({name: n, age: a} : person)\n => {\na > 30;\n};
+isOverThirty me;
+let createAdder = fun addAmount x => addAmount + x;
+createAdder(1);
+createAdder(1)(5);
+let createAdder = fun y x => y + x;
+let createAdder = fun addAmount x => addAmount + x;
+let createAdder = fun y x => y + x;
+quit

@@ -1,0 +1,62 @@
+db
+show dbs
+use local
+use matcherdb
+db
+show dbs
+quit
+stop
+db
+help
+help connect
+help admin
+show dbs
+use matcherdb
+db
+db.find()
+db
+db.help()
+db.printCollectionStats( )
+db.professors.find()
+db.professors.remove()
+db.professors.find()
+quit
+db.professors.find()
+use matcherdb
+db.professors.find()
+db.students.find()
+use matcherdb
+db.professors.find()
+db.professors.map(function(d) { d["id"] = d["email"]})
+db.professors.find().map(function(d) { d["id"] = d["email"]})
+db.professors.find()
+use matcherdb
+db.students.find()
+db.professors.remove()
+use matcherdb
+db.professors.find()
+ls
+ls()
+use matcherdb
+db.find
+db.find()
+matcherdb.professors.find()
+db.professors.find()
+db.professors.remove()
+db.students.remove()
+db.students.find()
+db.students.remove( {"id": "jns8lt"} )
+db.students.find()
+db.professors.find()
+db
+showdb
+show db
+db
+db.list()
+listdb
+show dbs
+show dbs
+ls
+ls()
+db.list()
+show dbs
