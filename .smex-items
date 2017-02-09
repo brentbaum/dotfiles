@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ package-install
+ load-file
  delete-file
  evil-mode
  list-packages
- package-install
  package-refresh-contents
  package-menu-mode
- package-menu-mark-upgrades
 )
 
 ;; ----- smex-data -----
@@ -15,7 +15,7 @@
  (nrepl-jack-in . 7)
  (nrepl . 2)
  (nrepl-load-current-buffer . 2)
- (package-install . 58)
+ (package-install . 61)
  (cider-jack-in . 53)
  (cider . 9)
  (cider-repl-toggle-pretty-printing . 1)
@@ -53,7 +53,7 @@
  (package-refresh-contents . 7)
  (sass-mode . 2)
  (web-beautify-js . 2)
- (load-file . 3)
+ (load-file . 6)
  (evil-paste-after . 5)
  (evil-paste-from-register . 1)
  (html-mode . 2)

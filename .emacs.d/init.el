@@ -24,6 +24,7 @@
 (define-key global-map (kbd "RET") 'newline-and-indent)
 (define-key global-map "\M-'" 'other-frame)
 (setq require-final-newline nil)
+(setq global-auto-revert-mode t)
 
 (global-set-key (kbd "C-x p")
 		(kbd (concat "M-! latexmk -pdf "
@@ -49,8 +50,28 @@
 (package-initialize)
 
 ;; ------------------- FLYCHECK -------------------- ;;
+(require 'flycheck)
 (add-hook 'after-init-hook #'global-flycheck-mode)
 (add-hook 'flycheck-mode-hook 'flycheck-color-mode-line-mode)
+
+;; disable jshint since we prefer eslint checking
+(setq-default flycheck-disabled-checkers
+  (append flycheck-disabled-checkers
+    '(javascript-jshint)))
+
+;; use eslint with web-mode for jsx files
+(flycheck-add-mode 'javascript-eslint 'web-mode)
+
+;; customize flycheck temp file prefix
+(setq-default flycheck-temp-prefix ".flycheck")
+
+;; disable json-jsonlist checking for json files
+(setq-default flycheck-disabled-checkers
+  (append flycheck-disabled-checkers
+    '(json-jsonlist)))
+
+(when (memq window-system '(mac ns))
+  (exec-path-from-shell-initialize))
 
 ;; ------------------- FLYMAKE --------------------- ;;
 (defun flymanke-get-tex-args (file-name)
@@ -102,17 +123,43 @@
   (add-to-list 'auto-mode-alist (cons pattern 'json-mode)))
 (setq httpd-port 6789)
                                         ; javascript
-(autoload 'js2-mode "js2-mode" nil t)
-(add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
+; (autoload 'js2-mode "js2-mode" nil t)
+; (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
+; (add-to-list 'auto-mode-alist '("\\.js$" . js-jsx-mode))
+
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.js\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.jsx\\'" . web-mode))
+
+(setq web-mode-content-types-alist
+  '(("jsx" . "\\.js[x]?\\'")))
+
+(defun my-web-mode-hook ()
+  "Hooks for Web mode. Adjust indents"
+  ;;; http://web-mode.org/
+  (setq web-mode-markup-indent-offset 2)
+  (setq web-mode-css-indent-offset 2)
+  (setq web-mode-attr-indent-offset 2)
+  (setq web-mode-code-indent-offset 2))
+
+(add-hook 'web-mode-hook  'my-web-mode-hook)
+
+;; for better jsx syntax-highlighting in web-mode
+;; - courtesy of Patrick @halbtuerke
+(defadvice web-mode-highlight-part (around tweak-jsx activate)
+  (if (equal web-mode-content-type "jsx")
+    (let ((web-mode-enable-part-face nil))
+      ad-do-it)
+    ad-do-it))
+
+(setq web-mode-enable-auto-quoting nil)
 
 (require 'web-beautify) ;; Not necessary if using ELPA package
-(eval-after-load 'js2-mode
-  '(define-key js2-mode-map (kbd "C-c C-t") 'web-beautify-js))
 
-(add-hook 'js2-mode-hook 'skewer-mode)
-(add-hook 'css-mode-hook 'skewer-css-mode)
-(add-hook 'html-mode-hook 'skewer-html-mode)
-
+(load-file "~/.emacs.d/prettier-js.el")
+(require 'prettier-js)
+(eval-after-load 'web-mode
+  '(define-key web-mode-map (kbd "C-c C-t") 'prettier))
 ;; ---------------- Line Numbering ------------------;;
 (require 'linum)
 (load-file "~/.emacs.d/relative-number.el")
@@ -169,22 +216,24 @@ Display the results in a hyperlinked *compilation* buffer."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ansi-color-names-vector
+   ["#eee8d5" "#dc322f" "#859900" "#b58900" "#268bd2" "#d33682" "#2aa198" "#839496"])
+ '(background-color "#fdf6e3")
+ '(background-mode light)
+ '(cursor-color "#657b83")
  '(custom-safe-themes
    (quote
     ("1e7e097ec8cb1f8c3a912d7e1e0331caeed49fef6cff220be63bd2a6ba4cc365" default)))
+ '(foreground-color "#657b83")
  '(haskell-process-auto-import-loaded-modules t)
  '(haskell-process-log t)
  '(haskell-process-suggest-remove-import-lines t)
- '(haskell-process-type (quote ghci)))
+ '(haskell-process-type (quote ghci))
+ '(org-agenda-files (quote ("~/org/twinthread.org")))
+ '(package-selected-packages
+   (quote
+    (rainbow-identifiers helm-projectile projectile yaml-mode ace-jump-mode sass-mode exec-path-from-shell json-mode web-mode solarized-theme skewer-mode web-beautify switch-window smex simple-httpd rainbow-delimiters powerline nrepl-eval-sexp-fu magit linum-relative kibit-mode key-chord haskell-mode flymake flycheck-color-mode-line evil-paredit evil-nerd-commenter evil-leader color-theme-solarized cider ac-helm ac-dabbrev))))
 
-(define-key haskell-mode-map (kbd "C-c C-l") 'haskell-process-load-or-reload)
-(define-key haskell-mode-map (kbd "C-`") 'haskell-interactive-bring)
-(define-key haskell-mode-map (kbd "C-c C-t") 'haskell-process-do-type)
-(define-key haskell-mode-map (kbd "C-c C-i") 'haskell-process-do-info)
-(define-key haskell-mode-map (kbd "C-c C-c") 'haskell-process-cabal-build)
-(define-key haskell-mode-map (kbd "C-c C-k") 'haskell-interactive-mode-clear)
-(define-key haskell-mode-map (kbd "C-c c") 'haskell-process-cabal)
-(define-key haskell-mode-map (kbd "SPC") 'haskell-mode-contextual-space)
 
 ;; ---------------------- C ------------------------ ;;
 (global-ede-mode 1)
@@ -208,6 +257,15 @@ Display the results in a hyperlinked *compilation* buffer."
 (define-key helm-map (kbd "<tab>") 'helm-execute-persistent-action) 
 (define-key helm-map (kbd "C-z")  'helm-select-action) ; list actions using C-z
 
+;; ------------------ Projectile ------------------- ;;
+(projectile-global-mode)
+(setq projectile-completion-system 'helm)
+(helm-projectile-on)
+(setq projectile-switch-project-action 'helm-projectile-find-file)
+(setq projectile-switch-project-action 'helm-projectile)
+(setq projectile-enable-caching t)
+(setq shell-file-name "/bin/sh")
+
 (when (executable-find "curl")
   (setq helm-google-suggest-use-curl-p t))
 
@@ -226,4 +284,4 @@ Display the results in a hyperlinked *compilation* buffer."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(helm-ff-executable ((t (:foreground "dark red")))))

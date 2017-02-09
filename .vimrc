@@ -55,26 +55,26 @@ syntax on
 
 
 set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+"call vundle#rc()
 
-Bundle 'gmarik/vundle'
-Bundle 'wincent/Command-T'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'tpope/vim-fugitive'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-Bundle 'Valloric/YouCompleteMe'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'guns/vim-clojure-static'
-Bundle 'kien/rainbow_parentheses.vim'
-Bundle 'vim-scripts/paredit.vim'
-Bundle 'tpope/vim-fireplace'
+"Bundle 'gmarik/vundle'
+"Bundle 'wincent/Command-T'
+"Bundle 'scrooloose/nerdcommenter'
+"Bundle 'tpope/vim-fugitive'
+"Bundle 'Lokaltog/vim-easymotion'
+"Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
+"Bundle 'Valloric/YouCompleteMe'
+"Bundle 'altercation/vim-colors-solarized'
+"Bundle 'guns/vim-clojure-static'
+"Bundle 'kien/rainbow_parentheses.vim'
+"Bundle 'vim-scripts/paredit.vim'
+"Bundle 'tpope/vim-fireplace'
 
-Bundle 'Townk/vim-autoclose'
-let g:syntastic_cpp_checkers=['ycm', 'gcc']
-let g:syntastic_c_checkers=['ycm', 'gcc', 'make']
-let g:syntastic_cpp_check_header = 1
-Bundle 'scrooloose/syntastic'
+"Bundle 'Townk/vim-autoclose'
+"let g:syntastic_cpp_checkers=['ycm', 'gcc']
+"let g:syntastic_c_checkers=['ycm', 'gcc', 'make']
+"let g:syntastic_cpp_check_header = 1
+"Bundle 'scrooloose/syntastic'
 
 filetype plugin indent on     " required!
 

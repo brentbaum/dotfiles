@@ -8,6 +8,7 @@ export PATH=$homebrew:$PATH
 export TERM=xterm-16color Emacs 
 
 export PATH=/usr/local/lib/python3.4/site-packages:$PATH
+export PATH=~/dev/tf-cli:$PATH
 #alias python='python3'
 #alias pip='pip'
 alias ipy="python -c 'import IPython; IPython.terminal.ipapp.launch_new_instance()'"
@@ -103,9 +104,6 @@ alias cljsbuild="lein trampoline cljsbuild $@"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(brew gem npm ruby rvm web-search zsh-syntax-highlighting)
 
-eval `opam config env`
-
-
 source $ZSH/oh-my-zsh.sh
 
 # bindkey -v
@@ -116,6 +114,7 @@ function chpwd() {
 }
 
 
+eval "$(pyenv init -)"
 
 
 alg=/Users/brent/Dropbox/school_spring_2014/algorithms
@@ -127,3 +126,4 @@ school=/Users/brent/Dropbox/school_spring_2015
 school=/Users/brent/Dropbox/school_fall_2015
 school=/Users/brent/Dropbox/school_spring_2016
 helme=/Users/brent/dev/edu-
+eval "$(rbenv init -)"
