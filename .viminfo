@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/anaconda
+~MSle0~/buffersize
 
 # Last Substitute Search Pattern:
 ~MSle0&Comparable
@@ -18,11 +18,11 @@ $HuffmanNode
 
 # Command Line History (newest to oldest):
 :wq
+:w
 :q
 :q!
 :SolarizedOptions
 :quit
-:w
 :%!python -m json.tool
 :e fields.json
 :%!
@@ -39,6 +39,14 @@ $HuffmanNode
 :e link.ld
 
 # Search String History (newest to oldest):
+?/buffersize
+?/bufferSize = 4096;
+?/\/\/
+?/type
+?/projecttype/
+?/projecttype
+?/vundle
+?/opam
 ?/anaconda
 ?/hash
 ?/8.2
@@ -75,53 +83,82 @@ $HuffmanNode
 # Input Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	e
-"1	LINE	0
-	
+"0	LINE	0
+	10.211.55.3   	twinthread.server
+""1	LINE	0
+	10.211.55.3  	    twinthread.client
+	10.211.55.3  	twinthread.api
 "2	LINE	0
-	# added by Anaconda 1.9.2 installer
-	export PATH="//anaconda/bin:$PATH"
+	    var audioContext = new window.AudioContext();
 "3	LINE	0
-	gcclinux=/usr/local/gcc-4.8.1-for-linux64/bin
-	export PATH=$gcclinux:$PATH
+	var audioContext = new window.AudioContext();
 "4	LINE	0
-	# added by Anaconda 1.9.2 installer
-	export PATH="//anaconda/bin:$PATH"
+	    var audioContext = 
 "5	LINE	0
-	
+	localhost:63347 localhost:3001
 "6	LINE	0
-	"Yank text to the OSX clipboard
-	noremap <leader>y "*y
-	noremap <leader>yy "*Y
+	
 "7	LINE	0
-	import simplecv
+	
 "8	LINE	0
-	  print num_cases, "\n"
+	eval `opam config env`
 "9	LINE	0
-	rabbit=/Users/brent/Dropbox/Development/devops-common/rabbit-webui
+	
 "m@	CHAR	0
 	A + J
-""-	CHAR	0
-	#
+"-	CHAR	0
+	:63347 
 
 # File marks:
 '0  10  0  /private/etc/hosts
-'1  7  0  /private/etc/hosts
-'2  9  0  /private/etc/hosts
-'3  8  1  /private/etc/hosts
-'4  1  6  ~/dev/edu-/frontend/t
-'5  1  0  ~/dev/tsp-art/tsp.py
-'6  8  0  ~/dev/tsp-art/tsp.py
-'7  10  0  /Volumes/MATLAB_801 R2013/activate.ini
-'8  5  0  ~/.zshrc
-'9  8  0  ~/.zshrc
+'1  10  11  /private/etc/hosts
+'2  7  21  /private/etc/hosts
+'3  5  0  ~/dev/noise/index.html
+'4  9  3  ~/dev/noise/index.html
+'5  31  7  ~/dev/noise/index.html
+'6  9  0  /private/etc/hosts
+'7  10  29  /private/etc/hosts
+'8  93  24  ~/dev/MyApp/package.json
+'9  11  4  ~/Downloads/MyApp/MyApp.xproj
 
 # Jumplist (newest first):
 -'  10  0  /private/etc/hosts
--'  1  0  /private/etc/hosts
 -'  7  0  /private/etc/hosts
 -'  9  0  /private/etc/hosts
+-'  5  0  ~/dev/noise/index.html
+-'  9  4  ~/dev/noise/index.html
+-'  31  0  ~/dev/noise/index.html
+-'  12  28  ~/dev/noise/index.html
+-'  4  4  ~/dev/noise/index.html
+-'  1  0  ~/dev/noise/index.html
+-'  30  10  ~/dev/noise/index.html
+-'  29  8  ~/dev/noise/index.html
+-'  28  211  ~/dev/noise/index.html
+-'  1  0  /private/etc/hosts
+-'  93  24  ~/dev/MyApp/package.json
+-'  1  0  ~/dev/MyApp/package.json
+-'  11  4  ~/Downloads/MyApp/MyApp.xproj
+-'  3  2  ~/Downloads/MyApp/MyApp.xproj
+-'  1  0  ~/Downloads/MyApp/MyApp.xproj
+-'  25  4  ~/Downloads/MyApp/TwinThread Client.csproj
+-'  1  0  ~/Downloads/MyApp/TwinThread Client.csproj
+-'  116  0  ~/.zshrc
+-'  1  0  ~/.zshrc
+-'  112  8  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  58  0  ~/.vimrc
+-'  57  23  ~/.vimrc
+-'  131  0  ~/.vimrc
+-'  111  0  ~/.vimrc
+-'  83  0  ~/.vimrc
+-'  84  0  ~/.vimrc
+-'  85  0  ~/.vimrc
+-'  86  0  ~/.vimrc
+-'  82  0  ~/.vimrc
+-'  73  0  ~/.vimrc
+-'  1  25  ~/.gitignore
+-'  22  10  ~/.gitignore
+-'  106  0  ~/.zshrc
 -'  8  1  /private/etc/hosts
 -'  1  6  ~/dev/edu-/frontend/t
 -'  1  0  ~/dev/tsp-art/tsp.py
@@ -130,7 +167,6 @@ $HuffmanNode
 -'  10  0  /Volumes/MATLAB_801 R2013/activate.ini
 -'  1  0  /Volumes/MATLAB_801 R2013/activate.ini
 -'  5  0  ~/.zshrc
--'  1  0  ~/.zshrc
 -'  8  0  ~/.zshrc
 -'  6  47  /usr/local/Library/Formula/opencv.rb
 -'  1  0  /usr/local/Library/Formula/opencv.rb
@@ -139,7 +175,6 @@ $HuffmanNode
 -'  19  2  /usr/local/Library/Formula/opencv.rb
 -'  12  0  ~/.zshrc
 -'  136  0  ~/.vimrc
--'  1  0  ~/.vimrc
 -'  11  28  ~/.zshrc
 -'  97  118  ~/Downloads/opencv-2.4.9/build/Makefile
 -'  829  40  ~/Downloads/opencv-2.4.9/build/Makefile
@@ -181,45 +216,14 @@ $HuffmanNode
 -'  1  0  ~/cloudlease/project.clj
 -'  1  0  ~/Dropbox/school_spring_2014/algorithms/hw2/input.txt
 -'  21  7  ~/Dropbox/school_spring_2014/algorithms/hw2/input.txt
--'  11  16  ~/Dropbox/school_spring_2014/algorithms/hw2/input.txt
--'  9  8  ~/Dropbox/school_spring_2014/algorithms/hw2/input.txt
--'  40  4  ~/Dropbox/school_spring_2014/algorithms/hw2/hw2.rb
--'  1  0  ~/Dropbox/school_spring_2014/algorithms/hw2/hw2.rb
--'  71  0  ~/Dropbox/school_spring_2014/algorithms/hw2/hw2.rb
--'  36  0  ~/Dropbox/school_spring_2014/algorithms/hw2/hw2.rb
--'  2  0  ~/Dropbox/Development/edu-/cljs_test.js
--'  1  0  ~/Dropbox/Development/edu-/cljs_test.js
--'  10  0  ~/Dropbox/Development/edu-/config.rb
--'  1  0  ~/Dropbox/Development/edu-/config.rb
--'  1  6  ~/Dropbox/hot-or-cat/.gitignore
--'  1  0  ~/Dropbox/Development/edu-/.git/MERGE_MSG
--'  1  0  ~/Dropbox/Development/edu-/.idea/vcs.xml
--'  114  6  ~/.zshrc
--'  12  16  ~/printing/setup.py
--'  1  0  ~/printing/setup.py
--'  1  60  ~/Dropbox/Development/edu-/.git/COMMIT_EDITMSG
--'  1  0  ~/Dropbox/school_spring_2014/algorithms/hw4/src/test.txt
--'  1  0  ~/Dropbox/Development/clojure/markov-madness/.git/MERGE_MSG
--'  1  82  ~/Dropbox/Development/clojure/markov-madness/markov-clj/Procfile
--'  58  12  ~/Dropbox/Development/clojure/markov-madness/markov-clj/src/markov_clj/twitter.clj
--'  83  0  ~/Dropbox/Development/clojure/markov-madness/markov-clj/src/markov_clj/twitter.clj
--'  1  0  ~/Dropbox/Development/clojure/markov-madness/markov-clj/src/markov_clj/twitter.clj
--'  76  4  ~/Dropbox/Development/clojure/markov-madness/markov-clj/src/markov_clj/markov.clj
--'  77  0  ~/Dropbox/Development/clojure/markov-madness/markov-clj/src/markov_clj/markov.clj
--'  1  0  ~/Dropbox/Development/clojure/markov-madness/markov-clj/src/markov_clj/markov.clj
--'  11  12  ~/Dropbox/Development/clojure/markov-madness/markov-clj/.gitignore
--'  1  0  ~/Dropbox/Development/clojure/markov-madness/markov-clj/.gitignore
--'  10  11  ~/Dropbox/Development/clojure/markov-madness/markov-clj/.gitignore
--'  1  6  ~/dev/edu-/frontend/t
--'  1  0  ~/dev/tsp-art/tsp.py
--'  8  0  ~/dev/tsp-art/tsp.py
--'  7  10  ~/dev/tsp-art/tsp.py
+-'  11  28  ~/dev/noise/index.html
+-'  8  3  ~/dev/noise/index.html
 
 # History of marks within files (newest to oldest):
 
 > /private/etc/hosts
 	"	10	0
-	^	10	1
+	^	7	22
 	.	10	0
 	+	8	0
 	+	7	0
@@ -238,40 +242,54 @@ $HuffmanNode
 	+	8	0
 	+	7	0
 	+	10	0
+	+	10	0
+	+	10	0
+	+	10	11
+	+	10	28
+	+	10	15
+	+	10	16
+	+	10	23
+	+	10	23
+	+	9	23
+	+	8	23
+	+	7	21
+	+	10	11
+	+	10	0
 
-> ~/dev/edu-/frontend/t
-	"	1	6
-	^	1	6
-	.	1	5
-	+	1	3
-	+	1	8
-	+	1	7
-	+	1	12
-	+	1	16
-	+	1	20
-	+	2	0
-	+	1	4
-	+	1	8
-	+	1	12
-	+	1	16
-	+	1	20
-	+	1	12
-	+	1	5
+> ~/dev/noise/index.html
+	"	5	0
+	^	5	0
+	.	5	0
+	+	4	22
+	+	28	211
+	+	7	0
+	+	3	7
+	+	29	8
+	+	2	9
+	+	30	0
+	+	3	0
+	+	31	7
+	+	7	0
+	+	6	0
+	+	9	0
+	+	5	0
 
-> ~/dev/tsp-art/tsp.py
-	"	1	0
-	^	8	0
-	.	8	0
-	+	8	0
-	+	8	0
+> ~/dev/MyApp/package.json
+	"	93	24
+	^	93	25
+	.	93	25
+	+	93	25
 
-> /Volumes/MATLAB_801 R2013/activate.ini
-	"	10	0
+> ~/Downloads/MyApp/MyApp.xproj
+	"	11	4
+
+> ~/Downloads/MyApp/TwinThread Client.csproj
+	"	25	4
 
 > ~/.zshrc
-	"	5	0
-	^	10	69
-	.	8	0
+	"	116	0
+	^	116	6
+	.	116	0
 	+	79	57
 	+	79	346
 	+	79	33
@@ -355,7 +373,7 @@ $HuffmanNode
 	+	8	0
 	+	29	17
 	+	12	31
-	+	115	0
+	+	112	0
 	+	11	0
 	+	11	0
 	+	10	69
@@ -365,48 +383,13 @@ $HuffmanNode
 	+	7	0
 	+	10	68
 	+	8	0
-
-> /usr/local/Library/Formula/opencv.rb
-	"	6	47
-	^	6	48
-	.	6	47
-	+	54	45
-	+	55	54
-	+	54	64
-	+	55	55
-	+	5	52
-	+	6	47
+	+	106	0
+	+	116	0
 
 > ~/.vimrc
-	"	136	0
-	^	101	1
-	.	107	0
-	+	86	0
-	+	86	0
-	+	86	0
-	+	86	0
-	+	86	0
-	+	86	0
-	+	86	0
-	+	86	0
-	+	80	0
-	+	79	0
-	+	79	26
-	+	79	0
-	+	86	0
-	+	86	0
-	+	86	0
-	+	86	0
-	+	86	0
-	+	86	0
-	+	86	0
-	+	87	0
-	+	88	0
-	+	89	0
-	+	90	0
-	+	91	0
-	+	92	0
-	+	93	0
+	"	112	8
+	^	58	1
+	.	58	0
 	+	93	0
 	+	94	26
 	+	94	26
@@ -481,7 +464,80 @@ $HuffmanNode
 	+	102	11
 	+	101	0
 	+	107	0
+	+	46	0
+	+	60	0
+	+	61	0
+	+	62	0
+	+	63	0
+	+	64	0
+	+	65	0
+	+	66	0
+	+	67	0
+	+	68	0
+	+	69	0
+	+	70	0
+	+	71	0
+	+	72	0
+	+	73	0
+	+	74	0
+	+	75	0
+	+	76	0
+	+	77	0
+	+	81	0
+	+	82	0
+	+	83	0
+	+	84	0
+	+	82	0
+	+	111	0
+	+	58	0
 	a	48	0
+
+> ~/.gitignore
+	"	1	25
+	^	1	33
+	.	1	32
+	+	22	0
+	+	1	32
+
+> ~/dev/edu-/frontend/t
+	"	1	6
+	^	1	6
+	.	1	5
+	+	1	3
+	+	1	8
+	+	1	7
+	+	1	12
+	+	1	16
+	+	1	20
+	+	2	0
+	+	1	4
+	+	1	8
+	+	1	12
+	+	1	16
+	+	1	20
+	+	1	12
+	+	1	5
+
+> ~/dev/tsp-art/tsp.py
+	"	1	0
+	^	8	0
+	.	8	0
+	+	8	0
+	+	8	0
+
+> /Volumes/MATLAB_801 R2013/activate.ini
+	"	10	0
+
+> /usr/local/Library/Formula/opencv.rb
+	"	6	47
+	^	6	48
+	.	6	47
+	+	54	45
+	+	55	54
+	+	54	64
+	+	55	55
+	+	5	52
+	+	6	47
 
 > ~/Downloads/opencv-2.4.9/build/Makefile
 	"	97	118
@@ -1971,75 +2027,3 @@ $HuffmanNode
 	+	22	0
 	+	23	57
 	+	26	10
-
-> ~/Dropbox/School Fall 2013/Program & Data Rep/labs/lab11/node.cpp
-	"	23	16
-	^	23	17
-	.	23	16
-	+	26	0
-	+	26	0
-	+	5	14
-	+	8	0
-	+	5	18
-	+	6	13
-	+	8	0
-	+	2	16
-	+	10	21
-	+	11	20
-	+	12	27
-	+	14	19
-	+	10	4
-	+	14	13
-	+	17	31
-	+	24	15
-	+	2	16
-	+	7	15
-	+	18	18
-	+	20	20
-	+	21	29
-	+	23	16
-
-> ~/Dropbox/School Fall 2013/Program & Data Rep/labs/lab11/graph.h
-	"	17	30
-	^	17	31
-	.	17	30
-	+	8	13
-	+	9	11
-	+	11	23
-	+	18	0
-	+	18	0
-	+	14	23
-	+	15	0
-	+	12	22
-	+	14	12
-	+	11	40
-	+	7	0
-	+	18	1
-	+	19	0
-	+	14	42
-	+	15	25
-	+	18	16
-	+	4	16
-	+	6	19
-	+	5	16
-	+	15	19
-	+	18	31
-	+	10	15
-	+	18	0
-	+	14	12
-	+	16	29
-	+	5	16
-	+	14	12
-	+	17	30
-
-> ~/Dropbox/School Fall 2013/Program & Data Rep/labs/lab11/topological.h
-	"	1	0
-
-> ~/Dropbox/School Fall 2013/Program & Data Rep/labs/lab11/topological.
-	"	1	0
-
-> ~/Dropbox/School Fall 2013/Program & Data Rep/labs/lab11/fileio2.cpp
-	"	5	0
-	.	11	0
-	+	11	14
-	+	11	0
