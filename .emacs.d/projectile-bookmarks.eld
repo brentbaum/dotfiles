@@ -1,1 +1,1 @@
-("~/dev/tf-workspace/ClientSide/TwinThread-WebApp/" "~/cvillization/" "~/dev/lean-school-center/react-router-firebase-auth/" "~/dotfiles/" "~/dev/lean-school-center/" "~/dev/Workspaces/ClientSide/TwinThread-WebApp/" "~/dev/grommet-vertical-narrative/")
+("~/dev/tf-workspace/ClientSide/TwinThread-WebApp/" "~/dev/lean-school-center/react-router-firebase-auth/" "~/dotfiles/" "~/cvillization/" "~/dev/tf/" "~/dev/wizeline-bot-webchat/" "~/dev/lean-school-center/" "~/dev/Workspaces/ClientSide/TwinThread-WebApp/" "~/dev/grommet-vertical-narrative/")

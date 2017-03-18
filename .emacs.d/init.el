@@ -232,7 +232,7 @@ Display the results in a hyperlinked *compilation* buffer."
  '(org-agenda-files (quote ("~/org/twinthread.org")))
  '(package-selected-packages
    (quote
-    (rainbow-identifiers helm-projectile projectile yaml-mode ace-jump-mode sass-mode exec-path-from-shell json-mode web-mode solarized-theme skewer-mode web-beautify switch-window smex simple-httpd rainbow-delimiters powerline nrepl-eval-sexp-fu magit linum-relative kibit-mode key-chord haskell-mode flymake flycheck-color-mode-line evil-paredit evil-nerd-commenter evil-leader color-theme-solarized cider ac-helm ac-dabbrev))))
+    (typescript-mode rainbow-identifiers helm-projectile projectile yaml-mode ace-jump-mode sass-mode exec-path-from-shell json-mode web-mode solarized-theme skewer-mode web-beautify switch-window smex simple-httpd rainbow-delimiters powerline nrepl-eval-sexp-fu magit linum-relative kibit-mode key-chord haskell-mode flymake flycheck-color-mode-line evil-paredit evil-nerd-commenter evil-leader color-theme-solarized cider ac-helm ac-dabbrev))))
 
 
 ;; ---------------------- C ------------------------ ;;

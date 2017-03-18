@@ -2,56 +2,3872 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Sun Jan 29 22:14:33 2017
+;; Created Wed Mar  8 02:00:36 2017
 ;; Desktop file format version 208
 ;; Emacs version 25.1.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (22670 44953 404788 0) (desktop . "208") "brentbaumgartner@Brents-MBP" nil nil ((((font-backend mac-ct) (font . "-*-Monaco-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#657b83") (background-color . "#fdf6e3") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (alpha) (tool-bar-lines . 0) (title) (menu-bar-lines . 0) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (fullscreen) (display-type . color) (background-mode . light) (cursor-color . "#657b83") (environment) (frameset--id . "1111-CA6F-2D54-3082") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (visibility . t) (display . "Mac") (explicit-name) (tool-bar-position . top) (height . 30) (width . 237) (left . 0) (top . 534)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 19) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 64) (min-pixel-width . 140) (min-pixel-height-ignore . 48) (min-pixel-width-ignore . 133) (min-pixel-height-safe . 16) (min-pixel-width-safe . 28)) hc (pixel-width . 1675) (pixel-height . 384) (total-width . 239) (total-height . 24) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 840) (pixel-height . 384) (total-width . 120) (total-height . 24) (normal-height . 1.0) (normal-width . 0.5014925373134329) (buffer "Map.js" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 4) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1939) (start . 1474))) (leaf (last . t) (pixel-width . 835) (pixel-height . 384) (total-width . 119) (total-height . 24) (normal-height . 1.0) (normal-width . 0.49850746268656715) (buffer "entities.js" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 5) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1329) (start . 1)))))])
+(setq desktop-saved-frameset [frameset 1 (22719 44052 155242 0) (desktop . "208") "brentbaumgartner@Brents-MBP" nil nil ((((font-backend mac-ct) (font . "-*-Monaco-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#657b83") (background-color . "#fdf6e3") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (alpha) (tool-bar-lines . 0) (title) (menu-bar-lines . 0) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (fullscreen) (display-type . color) (background-mode . light) (cursor-color . "#657b83") (environment) (frameset--id . "1111-CA6F-2D54-3082") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (visibility . t) (display . "Mac") (explicit-name) (tool-bar-position . top) (height . 30) (width . 237) (left . 0) (top . 534)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 19) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 64) (min-pixel-width . 140) (min-pixel-height-ignore . 48) (min-pixel-width-ignore . 133) (min-pixel-height-safe . 16) (min-pixel-width-safe . 28)) hc (pixel-width . 1680) (pixel-height . 474) (total-width . 240) (total-height . 29) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 840) (pixel-height . 474) (total-width . 120) (total-height . 29) (normal-height . 1.0) (normal-width . 0.5) (buffer "Thread.js" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 5) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 3165) (start . 2580))) (leaf (last . t) (pixel-width . 840) (pixel-height . 474) (total-width . 120) (total-height . 29) (normal-height . 1.0) (normal-width . 0.5) (buffer "InnovatePage.js" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 4) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 280) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring nil)
-(setq regexp-search-ring '("entities" "zoom" "key=" "opacity" "inputheight" "height" "filterstyle" "visibl" "entity" "entities" "setscrollstate" "scrolltop" "state" "mounted" "opacity" "scrollpercentage"))
-(setq register-alist '((113) (48 . "    this._showFilters = this._showFilters.bind(this);\n")))
-(setq file-name-history '("~/cvillization/src/js/constants/taxonomy.js" "~/cvillization/src/js/constants/index.js" "~/cvillization/src/js/constants/entities.js" "~/cvillization/src/scss/index.scss" "~/cvillization/src/js/components/Content.js" "~/cvillization/src/js/components/Nav.js" "~/cvillization/src/js/components/Home.js" "~/cvillization/src/js/sections/MapSection.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/views/assets/AssetTable.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/views/assets/AssetTableContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/package.json" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/views/assets/search/AssetSearchContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/views/assets/search/AddClassForm.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/styles/sass/main.scss" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/views/assets/AssetPageContainer.js" "~/dev/lean-school-center/react-router-firebase-auth/app/components/reducers/index.js" "~/dev/lean-school-center/react-router-firebase-auth/app/App.js" "~/dev/lean-school-center/react-router-firebase-auth/app/components/grader/AssessContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/styles/sass/antd/_badge.scss" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/.tfignore" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/node_modules/mapbox-gl/js/mapbox-gl.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/vendor.webpack.config.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/components/Layout/Header.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/mapbox.config.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/webpack.config.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/node_modules/mapbox-gl/js/geo/transform.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/components/Layout/CompanyHeaderContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/views/assets/search/AssetSearchBar.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/utils/index.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/views/assets/search/AssetSearchBarContainer.js" "~/dotfiles/.emacs.d/prettier-js.el" "~/.emacs.d/init.el" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/selectors/index.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/utils/json.js" "~/.emacs.d/prettier-js.el"))
+(setq search-ring '("shb" "sse" "G"))
+(setq regexp-search-ring '("debugger" "gates" "togglelive" "live" "V" "btn btn-" "button" "view sample" "view in goo" "documents" "view sample" "css" "\\./" "./" "bundle" "params"))
+(setq register-alist '((109 . [118 101 121 119 97 32 32 escape 80 98 98 114 61 108 97 123 123 backspace escape 65 backspace 125 escape return]) (119) (113) (48 . "  {\n    blockId: 2,\n    type: 1,\n    label: \"Block 2\"\n  },\n")))
+(setq file-name-history '("~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/innovate/InnovatePage.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/package.json" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/node_modules/jointjs/dist/joint.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/node_modules/jointjs/node_modules/lodash/README.md" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/node_modules/jointjs/dist/vectorizer.min.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/node_modules/jointjs/dist/vectorizer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/innovate/thread/Thread.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/routes.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/reducers/status-image.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/status/StatusImageOverlayModalContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/status/StatusImageOverlayModal.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/reducers/asset-detail.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/actions/asset-detail.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/StatusPaneContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/dynamic/components/DynamicChart.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/MetricOverlayItem.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/AssetDataTable.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/StatusPane.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/api/actions.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/MonitorPageContainer.js" "~/dev/tf/src/views/monitor/monitorpage.js" "~/dev/tf/src/views/monitor/MonitorPage.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/CreateMonitorTileModal.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/AddTileToMonitorViewModal.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/AddMonitorViewModal.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/CreateMonitorViewForm.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/util/_display.scss" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/AddMonitorViewModalContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/AddExistingMonitorView.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/AddExistingMonitorViewContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/index.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/MonitorPage.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/CreateMonitorViewModalContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/MonitorView.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/main.scss" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/util/_mixins.scss" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/MonitorViewMenu.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/AssetDetailPageContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/AssetDetailPage.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/AlertPaneContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/ActionPaneContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/act/ActPage.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/ActionModalContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/ActionModal.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/act/ActPageContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/main.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/alert/AlertPageContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/Layout/GlobalAlertsContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/actions/dynamic.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/actions/actions.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/actions/alerts.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/Layout/GlobalAlerts.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/popover/container.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/popover/component.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/alert/AlertDetailContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/Layout/AccountContainer.js" "~/dev/lean-school-center/react-router-firebase-auth/app/components/secure/Templates.js" "~/dev/lean-school-center/react-router-firebase-auth/app/components/ProcessContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/selectors/index.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/TTTable/index.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/Alert/index.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/dynamic/DynamicContentSearchContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/TimelinePaneContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/LinkPane.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/analyze/AnalyzePage.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/analyze/AnalyzePageContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/reducers/dynamic.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/StatusImageContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/StatusImage.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/selectors/assets.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/dynamic/DynamicConfig.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/DynamicPane.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/charts/constants.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/charts/gauge.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/dynamic/DynamicContent.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/charts/base.js" "~/dev/builder/package.json" "~/dev/builder/index.js" "~/.aws/credentials" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/dynamic/config/PropertySelectContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-PhantomJS/PhantomJS/js/renderWebServer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/dynamic/DynamicContentSearch.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/dynamic/DynamicConfigContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/search/AssetSearchBarContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/dynamic/components/TrendProperties.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/charts/trend.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/actions/index.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/utils/index.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/dynamic/DynamicContentContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/actions/assets.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/_content.scss" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/DynamicPaneContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/reducers/alerts.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/dynamic/components/PerformanceChart.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/dynamic/components/DynamicTable.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/JsonForm/component.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/JsonForm/container.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/LinkPaneContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/AssetTableContainer.js" "~/dev/tf-workspace/ClientSide/TwinThread-WebApp/public/index.html"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/innovate/thread/Thread.js"
+  "Thread.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  3165
+  '(1329 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (3165 1325 3165 1364 1364 5143 1172 1172 1172 1172 4741 3253 4766 4708 4613 4557))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/innovate/InnovatePage.js"
+  "InnovatePage.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  280
+  '(308 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (246 188 114 113 114 114 114 114 114 114 114 114 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/config/routes.js"
+  "routes.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  2727
+  '(2727 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (2727 2727 2727 613 574 2727 2689 2689 2689 2689 2689 2689 3232 3232 3101 3101))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/package.json"
+  "package.json"
+  'json-mode
+  '(flycheck-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  445
+  '(445 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (445 445 445 445 462 462 462 458 445 445 445 445 445 445 441 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/secure/Templates.js"
+  "Templates.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  9167
+  '(9167 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (9167 8583 8623 1380 1380 7086 7086 8244 7529 7529 7803 7803 7803 7803 7372 7086))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/public/index.html"
+  "index.html"
+  'html-mode
+  '(flycheck-mode linum-mode undo-tree-mode projectile-mode helm-mode)
+  290
+  '(290 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (290 290 677 677 774 774 579 380 380 380 380 380 380 380 290 286))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/public/index.html"
+  "index.html"
+  'html-mode
+  '(flycheck-mode linum-mode undo-tree-mode projectile-mode helm-mode)
+  209
+  '(209 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (209 209 152 1 1 1496 816 816 816 816 816 816 816 816 816 784))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/secure/Lesson.js"
+  "Lesson.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1197
+  '(1197 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1197 980 1073 980 1073 980 3661 3661 2641 2641 2641 2641 2179 2179 2179 2179))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/MonitorPage.js"
+  "MonitorPage.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  35
+  '(35 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 1 1 660 660 660 656 656 656 111 111 111 111 75 75 3483))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/reducers/monitor.js"
+  "monitor.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  821
+  '(821 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (821 821 821 791 821 791 821 791 821 791 681 643 554 1 7174 7060))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/package.json"
+  "package.json"
+  'json-mode
+  '(flycheck-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  4193
+  '(4193 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (4193 4193 4191 4187 4187 4310 4310 4310 4310 4269 4269 4269 4269 4269 4269 4269))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/config/webpack.config.dev.js"
+  "webpack.config.dev.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 4381 4389 4366 4454 4366 4454 4366 4454 4446 4446 4446 4446 4446 4446 4420))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/node_modules/jointjs/dist/vectorizer.js"
+  "vectorizer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  66
+  '(66 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (66 8918 8918 8918 8891 8891 8887 8834 8825 8815 8812 18781 8896 8891 8887 8834))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/node_modules/jointjs/dist/joint.js"
+  "joint.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/routes.js"
+  "routes.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  557
+  '(557 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (557 557 557 550 550 574 2134 2138 2138 2102 2268 2268 2268 2268 2268 2268))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/antd/_tabs.scss"
+  "_tabs.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  768
+  '(874 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (357 511 579 662 579 662 579 357 357 358 358 411 357 357 357 357))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/status/StatusImageOverlayModal.js"
+  "StatusImageOverlayModal.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  757
+  '(757 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (757 726 7318 7277 7277 7277 7277 7318 7318 7318 7318 6429 6429 7013 7013 4046))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/reducers/status-image.js"
+  "status-image.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  3431
+  '(3431 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (3431 1009 3431 3349 3349 477 477 477 5779 5779 5779 5779 2130 2130 2130 2130))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/actions/status-image.js"
+  "status-image.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  2310
+  '(2310 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (2310 2310 2310 2310 2310 2310 2310 2310 2310 2310 2310 2310 2310 2310 2310 2310))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/status/StatusImageOverlayModalContainer.js"
+  "StatusImageOverlayModalContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  803
+  '(803 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (803 803 803 112 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/reducers/asset-detail.js"
+  "asset-detail.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  453
+  '(453 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (453 453 453 453 453 2663 2634 2511 2511 153 153 153 153 153 92 3703))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/alert/AlertDetail.js"
+  "AlertDetail.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  2981
+  '(2981 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (2981 2981 2981 3240 2981 2161 2161 2161 2161 2097 2097 2097 1182 1182 1182 1282))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/status/MetricOverlayItem.js"
+  "MetricOverlayItem.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  329
+  '(329 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (329 329 329 329 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/AssetStatusImagePage.js"
+  "AssetStatusImagePage.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  554
+  '(554 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (554 547 547 500 489 489 489 489 489 489 489 489 489 489 489 489))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/reducers/cases.js"
+  "cases.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  125
+  '(125 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (125 337 337 337 337 337 337 300 265 211 211 211 211 211 211 211))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/utils/index.js"
+  "index.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1600
+  '(1600 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1600 1601 1743 1654 1654 1654 1654 1654 1654 1654 1654 1652 1743 1743 1743 1743))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/api/actions.js"
+  "actions.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  9218
+  '(9218 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (9218 5318 5318 1349 1349 1349 1353 1713 1145 1145 14183 14183 14183 12265 14183 14073))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/actions/asset-detail.js"
+  "asset-detail.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  116
+  '(116 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (116 114 271 271 271 271 271 895 271 895 271 114 114 895 895 895))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/actions/dynamic.js"
+  "dynamic.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1534
+  '(1534 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (1534 1534 1534 277 1534 277 127 127 127 127 127 127 127 180 180 180))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/Layout/Layout.js"
+  "Layout.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  957
+  '(957 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (957 957 745 957 945 745 957 945 745 957 945 745 945 745 427 427))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/act/ActPage.js"
+  "ActPage.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  75
+  '(75 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (75 745 726 369 179 179 179 179 179 179 179 179 290 624 624 808))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/alert/AlertPage.js"
+  "AlertPage.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  692
+  '(692 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (692 692 686 535 686 535 686 686 730 1467 733 1467 733 733 733 733))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/analyze/AnalyzePage.js"
+  "AnalyzePage.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1522
+  '(1522 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (1522 1524 1524 3361 3361 3361 3361 3361 3361 3361 3361 3361 3361 3361 3361 3361))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/Alert/Table.js"
+  "Table.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1785
+  '(1785 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1785 1783 37 37 2358 2358 2358 2358 2358 2358 2358 2358 2358 1799 1799 1799))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/alert/AlertDetailContainer.js"
+  "AlertDetailContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  89
+  '(89 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (89 487 487 487 487 487 487 631 631 631 631 631 631 631 631 631))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/dynamic/DynamicConfigContainer.js"
+  "DynamicConfigContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  157
+  '(157 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (157 157 1 1 515 515 515 515 515 515 515 515 515 515 515 515))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/dynamic/DynamicContentSearchContainer.js"
+  "DynamicContentSearchContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  448
+  '(448 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (448 448 448 1 1 1 1 2032 2032 2032 2032 2032 2032 2032 2032 2032))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/CreateMonitorTileModalContainer.js"
+  "CreateMonitorTileModalContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  84
+  '(84 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (84 82 82 82 82 82 82 82 69 1013 69 82 69 1013 997 997))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/MonitorView.js"
+  "MonitorView.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  2117
+  '(2117 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (2117 1808 2098 1808 2098 1808 2098 1808 1366 1366 1366 1366 1366 1366 1366 1366))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/StatusPaneContainer.js"
+  "StatusPaneContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  97
+  '(97 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (97 98 98 131 131 98 98 98 98 98 98 98 98 98 98 98))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/dynamic/DynamicConfig.js"
+  "DynamicConfig.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  4460
+  '(4460 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (4460 206 206 3629 3629 3629 3629 3629 3629 2328 1744 1342 521 521 263 263))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/CreateMonitorTileModal.js"
+  "CreateMonitorTileModal.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  960
+  '(960 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (960 954 954 954 87 87 87 946 946 946 946 946 946 946 977 1007))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/AddMonitorViewModal.js"
+  "AddMonitorViewModal.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  536
+  '(536 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (536 332 530 435 400 359 332 1089 1089 1089 1089 1089 1089 1089 1089 1089))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/dynamic/components/PerformanceChart.js"
+  "PerformanceChart.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1235
+  '(1235 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1235 1235 1235 1132 1132 1132 1132 2987 2987 2987 601 601 601 601 601 601))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/dynamic/components/DynamicChart.js"
+  "DynamicChart.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 1 1914 1914 344 344 344 3434 241 3434 241 205 205 170 170 170))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/PropertyRenderer.js"
+  "PropertyRenderer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  37
+  '(37 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (37 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/CreateMonitorViewForm.js"
+  "CreateMonitorViewForm.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  89
+  '(89 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (89 89 741 741 741 741 741 741 741 741 741 741 832 385 385 385))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/charts/base.js"
+  "base.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  968
+  '(968 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (968 968 1845 1845 1845 1845 1845 1986 1986 1986 1986 1500 1345 768 590 413))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/JsonForm/container.js"
+  "container.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  488
+  '(488 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (488 499 292 230 222 197 168 197 168 138 138 138 138 138 728 728))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/dynamic/config/PropertySelect.js"
+  "PropertySelect.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  2897
+  '(2897 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (2897 2741 2741 2741 3247 2741 2735 2741 2735 2162 2162 2423 2535 1686 2535 2423))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/AssetDataTable.js"
+  "AssetDataTable.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  3490
+  '(3490 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (3490 380 58 58 58 58 58 58 58 58 58 58 58 58 58 58))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/StatusPane.js"
+  "StatusPane.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  61
+  '(61 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (61 55 55 55 55 55 55 55 55 1 1 1050 1050 1050 1050 1050))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/AssetDetailPage.js"
+  "AssetDetailPage.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  840
+  '(840 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (840 841 1 1 812 812 812 812 812 812 399 399 1 1 1 2777))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/Date/index.js"
+  "index.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  424
+  '(424 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (424 425 518 518 518 477 477 477 477 477 704 451 439 439 365 365))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/selectors/monitors.js"
+  "monitors.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  307
+  '(307 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (307 307 307 307 307 307 307 307 221 188 188 170 188 170 28 28))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/atoms/_tile.scss"
+  "_tile.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  2348
+  '(2348 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (2348 2348 592 592 1110 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/MonitorPageContainer.js"
+  "MonitorPageContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1690
+  '(1690 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1690 1693 1695 1695 1695 413 413 413 413 413 413 413 413 413 413 413))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/dynamic/DynamicContent.js"
+  "DynamicContent.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1373
+  '(1373 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1373 1373 1373 1373 1373 1373 1373 1244 1020 941 860 1 1 1 1 1735))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/actions/monitor.js"
+  "monitor.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  3008
+  '(3008 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (3008 3008 153 2955 2955 2955 2958 2958 2868 2868 2868 1715 1715 1621 2847 3011))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/AddExistingMonitorView.js"
+  "AddExistingMonitorView.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  801
+  '(801 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (801 801 801 801 801 801 1117 1117 1117 73 73 789 1305 981 968 968))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/reducers/dynamic.js"
+  "dynamic.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  851
+  '(851 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (851 851 851 1099 1099 1099 1099 1099 1456 1510 1456 1007 199 199 199 199))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/dynamic/DynamicContentSearch.js"
+  "DynamicContentSearch.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  3982
+  '(3982 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (3982 3982 3982 2314 3969 2314 7352 7352 5010 5010 4017 4017 3883 3883 6307 6307))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/AddTileToMonitorViewModal.js"
+  "AddTileToMonitorViewModal.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 1069 855 855 855 855 1385 855 1385 855 1385 855 1385 855 1385 855))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/AddTileToMonitorViewModalContainer.js"
+  "AddTileToMonitorViewModalContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  40
+  '(40 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (40 735 40 40 291 332 332 332 332 332 332 332 332 291 291 291))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/_content.scss"
+  "_content.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 1 1 2903 2070 2070 2070 2070 2070 2070 2070 2070 2070 2869 2869 2869))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/util/_display.scss"
+  "_display.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  137
+  '(137 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (137 137 137 137 137 137 137))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/dynamic/DynamicContentPage.js"
+  "DynamicContentPage.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  348
+  '(348 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (348 348 348 348 348 348 331 331 1 1 727 727 727 727 727 727))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/AddMonitorViewModalContainer.js"
+  "AddMonitorViewModalContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  843
+  '(843 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (843 843 174 843 174 843 188 188 188 190 857 860 572 572 572 572))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/AddExistingMonitorViewContainer.js"
+  "AddExistingMonitorViewContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  447
+  '(447 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (447 338 299 289 289 289 289 255 134 134 78 78 1 682 569 479))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/TTTable/index.js"
+  "index.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  344
+  '(344 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (344 344 344 2152 2152 2152 2138 2138 2138 2138 2138 2139 2138 2117 2117 2117))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/index.js"
+  "index.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  2574
+  '(2574 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (2574 2574 2621 2621 2496 2312 2621 2496 2312 2621 2496 2312 2621 2621 2621 2621))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/Layout/GlobalAlerts.js"
+  "GlobalAlerts.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1108
+  '(1108 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1108 1108 1108 1082 702 702 718 718 718 718 718 718 268 268 268 201))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/atoms/_modal.scss"
+  "_modal.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  706
+  '(706 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (706 705 705 896 896 962 796 796 796 1 1 860 1147))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/MonitorViewMenu.js"
+  "MonitorViewMenu.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  101
+  '(101 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (101 101 880 101 880 149 149 149 149 149 149 149 149 149 149 149))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/monitor/CreateMonitorViewModal.js"
+  "CreateMonitorViewModal.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 2179 2179))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/main.scss"
+  "main.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  211
+  '(211 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (211 211 215 1 1 854 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/util/_mixins.scss"
+  "_mixins.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  274
+  '(274 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (274))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/atoms/_link.scss"
+  "_link.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  135
+  '(135 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (135 135 135 169 169 169 169))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/AlertPane.js"
+  "AlertPane.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  270
+  '(270 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (270 270 338 214 151 346 338 214 151 346 338 214 151 346 338 214))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/AssetDetailPageContainer.js"
+  "AssetDetailPageContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  164
+  '(164 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (164 164 164 813 632 164 813 632 164 51 51 74 69 69 69 69))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/actions/assets.js"
+  "assets.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  2540
+  '(2540 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (2540 2540 2540 2540 2503 2540 2503 2540 2503 2540 2503 2540 2503 2540 2503 3023))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/AlertPaneContainer.js"
+  "AlertPaneContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  423
+  '(423 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (423 342 303 203 203 203 57 423 342 315 356 315 315 315 356 315))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/reducers/alerts.js"
+  "alerts.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  794
+  '(794 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (794 705 705 705 705 705 517 517 718 718 479 1 1 1466 303 1466))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/ActionPane.js"
+  "ActionPane.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  423
+  '(423 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (423 453 417 453 486 453 417 417 417 453 486 689 705 689 667 667))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/ActionPaneContainer.js"
+  "ActionPaneContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  393
+  '(393 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (393 292 292 312 292 312 292 312 292 209 209 209 209 209 209 209))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/act/ActionsSection.js"
+  "ActionsSection.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1185
+  '(1185 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (1185 1308 1185 258 1 1 1 1150 1150 1150 1 1195 1407 1416 1407 1195))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/act/ActPageContainer.js"
+  "ActPageContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  402
+  '(402 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (402 332 94 391 332 196 196 196 85 85 85 85 85 85 158 158))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/root.js"
+  "root.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  401
+  '(401 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (401 401 401 398 398 265 265 723 839 910 910 910 808 375 195 844))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/actions/actions.js"
+  "actions.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  239
+  '(239 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (239 163 43 239 163 43 239 163 43 239 163 43 239 163 43 239))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/actions/alerts.js"
+  "alerts.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  354
+  '(354 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (354 354 354 354 354 354 354 354 354 354 354 354 354 354 354 354))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/Label/index.js"
+  "index.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  134
+  '(134 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (134 183 183 183 183 183 183 151 94 46 28 28 28 28 28 301))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/alert/AlertPageContainer.js"
+  "AlertPageContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  601
+  '(601 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (601 601 601 607 704 326 326 326 318 318 318 49 49 715 58 58))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/_colors.scss"
+  "_colors.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  75
+  '(75 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (75 75 66 57))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/antd/_icon.scss"
+  "_icon.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  351
+  '(351 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (351 1025 356 356 273 267 213 782 213 782 213 1072 1072 1072 1072 939))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/Layout/GlobalAlertsContainer.js"
+  "GlobalAlertsContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  359
+  '(359 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (359 359 359 359 359 359 359 359 359 359 359 359 359 221 221 365))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/popover/component.js"
+  "component.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1273
+  '(1273 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1273 1273 1273 1273 1273 1337 1273 1273 1273 1273 1273 1201 919 1382 1060 1216))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/config/lessons.js"
+  "lessons.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  4966
+  '(4966 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (4966 4966 5186 4966 4182 4966 5186 4966 4182 4966 5186 4966 4586 4586 4586 341))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/grader/questions.js"
+  "questions.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  19712
+  '(19712 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (19712 19712 19712 19712 19712 19712 19712 19712 19712 19712 19712 19712 19712 19664 19712 19712))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/AssetTable.js"
+  "AssetTable.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1392
+  '(1392 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1392 1392 1392 1139 1139 1900 1245 1246 1246 1246 1246 1246 1 1 1349 1349))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/popover/container.js"
+  "container.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  267
+  '(267 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (267 267 267 267 267 267 267 267 344 344 344 344 150 344 150 344))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/AssetTable.js"
+  "AssetTable.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1165
+  '(1165 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1165 1165 1913 1165 1913 1165 1165 1165 1165 1165 1165 1913 1202 1913 1912 1912))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/AssetTableContainer.js"
+  "AssetTableContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1397
+  '(1397 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1397 1397 1397 1397 1397 1397 1397 1397 1397 1650 1650 1594 1176 1176 1191 812))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/reducers/actions.js"
+  "actions.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  914
+  '(914 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (914 705 705 705 851 851 224 821 821 821 835 669 692 692 705 890))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/search/AssetSearch.js"
+  "AssetSearch.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1430
+  '(1430 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1430 1430 1430 1430 1430 1430 1430 1430 1430 1430 1430 1430 1430 1430 1430 1430))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/Layout/Account.js"
+  "Account.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  614
+  '(614 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (614 637 637 637 614 614 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/Layout/AccountContainer.js"
+  "AccountContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  88
+  '(88 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (88 88 88 261 244 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/Views/Account/Lock.cshtml"
+  "Lock.cshtml"
+  'fundamental-mode
+  '(linum-mode undo-tree-mode projectile-mode helm-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-with-signature-dos) (overwrite-mode))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/Layout/Header.js"
+  "Header.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1210
+  '(1210 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (1210 965 686 686 686 686 682 682 682 682 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/atoms/_input.scss"
+  "_input.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  99
+  '(99 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (99 97 97 129 129 131 60 60 131 131 131 131 131 131 1 213))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/dynamic/config/PropertySelectContainer.js"
+  "PropertySelectContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  609
+  '(609 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (609 609 607 609 609 656 656 656 585 553 230 213 157 151 151 151))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/antd/_input.scss"
+  "_input.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  237
+  '(237 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (237 237 237 159 1 1 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/search/AssetSearchBar.js"
+  "AssetSearchBar.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  3569
+  '(3569 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (3569 2839 2839 5751 4858 4773 4698 4340 4185 3967 3858 3539 3029 2904 2866 2839))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/login-register/Register.js"
+  "Register.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1492
+  '(1492 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (1492 1492 1492 1492 1492 1492 1492 1492 1492 1492 1492 1492 1492 1492 1492 3772))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/public/popup.html"
+  "popup.html"
+  'html-mode
+  '(flycheck-mode linum-mode undo-tree-mode projectile-mode helm-mode)
+  1778
+  '(1778 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1778 1778 1778 1774 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/login-register/Login.js"
+  "Login.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1396
+  '(1396 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1396 1396 1457 1384 81 896 951 951 944 911 282 282 1683 282 1683 282))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/taxonomy/processes.js"
+  "processes.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  2450
+  '(2450 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (2450 2450 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/Consulting.js"
+  "Consulting.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  2256
+  '(2256 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (2256 2256 2256 2256 2256 2256 2256 2256 2256 2256 2256 2256 2256 2256 2256 11075))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/Home.js"
+  "Home.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1139
+  '(1139 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1139 1 1 3986 3986 3986 3986 3986 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/ContactForm.js"
+  "ContactForm.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  272
+  '(272 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (272 232 276 157 58 58 58 58 61 61 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/Contact.js"
+  "Contact.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (1 29 29 29 29 29 29 59 59 59 72 72 72 509 1 553))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/Process.js"
+  "Process.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/ProcessContainer.js"
+  "ProcessContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/PriorityIcon/index.js"
+  "index.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  381
+  '(381 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (381 381 555 562 555 101 555 101 555 101 555 101 67 67 176 176))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/selectors/alerts.js"
+  "alerts.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  59
+  '(59 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (59 104 104 84 84 88 34 34 34 66 34 66 43 66 66 66))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/selectors/assets.js"
+  "assets.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 1 1 1 1 1 1 1 1 1 1 1 293 293 293 293))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/selectors/index.js"
+  "index.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  85
+  '(85 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (85 85 85 85 85 85 113 85 173 27 141 141 141 141 141 141))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/atoms/_card.scss"
+  "_card.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  302
+  '(302 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (302 302 302 302 280 280 280 280 222 222 260 91 177 177 177 177))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/antd/_table.scss"
+  "_table.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1074
+  '(1074 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1074 1074 1074 1074 1074 1074 1074 1074 1074 1074 1074 1074 524 1 1076 1076))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/StatusImage.js"
+  "StatusImage.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  882
+  '(882 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (882 670 670 670 1707 104 104 769 769 769 769 769 769 769 907 275))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/actions/index.js"
+  "index.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  29
+  '(29 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (29 29 29 29 29 29 56 83 83 1 1 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/Alert/index.js"
+  "index.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/components/_search.scss"
+  "_search.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  2466
+  '(2466 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (2466 2466 2475 2426 2426 2426 2351 2351 2351 2515 2607 1 2572 2572 2313 2309))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/antd/_buttons.scss"
+  "_buttons.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  852
+  '(852 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (852 852 666 426 810 810 810 810 811 358 794 782 782 782 782 641))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/_grid.scss"
+  "_grid.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1549
+  '(1549 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1549 46 50 50 50 50 50 50 50 50 50 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/analyze/AnalyzePageContainer.js"
+  "AnalyzePageContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  558
+  '(558 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (558 876 558 69 69 69 69 69 611 608 608 632 634 634 634 747))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/Layout/SideMenu.js"
+  "SideMenu.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1541
+  '(1541 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1541 1541 1541 426 426 426 426 426 426 426 426 426 426 469 469 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/TimelinePane.js"
+  "TimelinePane.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  336
+  '(336 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (336 336 336 325 190 190 283 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/TimelinePaneContainer.js"
+  "TimelinePaneContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  51
+  '(51 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (51 51 51 51 1 1 383 314 372 314 287 79 1 372 314 287))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/LinkPane.js"
+  "LinkPane.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 1220 1 1 1220))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/LinkPaneContainer.js"
+  "LinkPaneContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 450 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/search/AssetSearchBarContainer.js"
+  "AssetSearchBarContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1772
+  '(1772 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1772 1441 1407 1304 1155 997 924 910 818 795 770 756 628 562 513 455))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/AssetPageContainer.js"
+  "AssetPageContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  520
+  '(520 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (520 332 56 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/reducers/index.js"
+  "index.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  159
+  '(159 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (159 63 48 159 63 48 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/Layout/Navigation.js"
+  "Navigation.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  785
+  '(785 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (785 762 722 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/Layout/GlobalSearch.js"
+  "GlobalSearch.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  173
+  '(173 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (173 76 62 35 173 102 102 102))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/search/AddBaseForm.js"
+  "AddBaseForm.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  473
+  '(473 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (473 408 361 266 1 1 2976 2976 2976 2976 2333 2333 2333 2333 2333 2333))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/dynamic/components/PerformanceChart.js"
+  "PerformanceChart.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/charts/base.js"
+  "base.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  782
+  '(782 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (782 1540 1052))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/search/AssetSearchBar.js"
+  "AssetSearchBar.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  3954
+  '(3954 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (3954 3954 3954 3629 3629 3029 2904 2866 2839 5842 4949 5842 2839 2866 2839 324))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/search/AssetSearch.js"
+  "AssetSearch.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  256
+  '(256 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (256 222 198 3605 3149 3127 2745 2715 2666 2666 2666 60 60 60 60 62))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/components/Layout/SideMenu.js"
+  "SideMenu.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  428
+  '(428 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (428 428 438 438 439 462 439 462 439 462 439 462 439 462 439 462))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/StatusImageContainer.js"
+  "StatusImageContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/charts/constants.js"
+  "constants.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  268
+  '(268 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-with-signature-dos) (overwrite-mode))
+  '((mark-ring (268 499 268 1 1 666 666 666 666 666 666 666 547 547 547 23))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/actions/autocomplete.js"
+  "autocomplete.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1036
+  '(1036 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (1036 1036 1036 1036 1036 1036 1052 782 575 575 1003 1003 583 583 1052 1052))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/selectors/autocomplete.js"
+  "autocomplete.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (1 1 1 65 65 65 65 65 65 65 65 65 65 65 65 65))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/charts/scatter.js"
+  "scatter.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  978
+  '(978 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (978 978 978 954 146 1053 970 954 123 1053 970 970 970 142 69 69))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/charts/trend.js"
+  "trend.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1286
+  '(1286 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-dos) (overwrite-mode))
+  '((mark-ring (1286 1179 1163 1019 657 122 122 122 122 122 1286 1179 1163 1019 657 122))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/charts/gauge.js"
+  "gauge.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  2736
+  '(2736 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (2736 2352 317 2352 317 2352 2352 2352 2352 2352 2352 317 317 317 60 60))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/DynamicPane.js"
+  "DynamicPane.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  92
+  '(92 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (92 92 92 92 92 92 92 92 92 92 35 204 70 35 238 238))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/charts/old-base.js"
+  "old-base.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1844
+  '(1844 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (1844 1844 893 772 1 1 794 794 794 794 794 794 794 794 794 794))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/builder/package.json"
+  "package.json"
+  'json-mode
+  '(flycheck-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  352
+  '(352 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (352 352 352 356 275 255))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/.aws/credentials"
+  "credentials"
+  'fundamental-mode
+  '(linum-mode undo-tree-mode projectile-mode helm-mode)
+  9
+  '(9 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (9 9 50 50 50 50 114 114 115 72 49))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/builder/index.js"
+  "index.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  83
+  '(83 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (83 83 1 80 83 83 80 80))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-PhantomJS/PhantomJS/js/renderWebServer.js"
+  "renderWebServer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  13743
+  '(13743 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-with-signature-dos) (overwrite-mode))
+  '((mark-ring (13743 13743 9389 7971 7943 13743 13743 1654 1654 1654 1654 1654 1654 1654 1654 1654))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/dynamic/DynamicContentContainer.js"
+  "DynamicContentContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  349
+  '(349 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (349 465 465 465 465 465 402 402 402 402 402 49 402 402 402 402))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/home/Home.js"
+  "Home.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 1 1 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/reducers/assets.js"
+  "assets.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1189
+  '(1189 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1189 3701 3700 3769 3782 3769 3782 3769 3688 3769 3688 1973 1961 1747 1136 1122))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/atoms/_headers.scss"
+  "_headers.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  552
+  '(552 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (552 552))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/dynamic/components/TrendProperties.js"
+  "TrendProperties.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  517
+  '(517 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (517 557 557 557 576 571 571 199 199 1251 1251 68 27 27 27 27))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/search/AddTagForm.js"
+  "AddTagForm.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 414))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/utils/json.js"
+  "json.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  969
+  '(969 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (969))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/PerformancePane.js"
+  "PerformancePane.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 1 1 392))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/assets/detail/DynamicPaneContainer.js"
+  "DynamicPaneContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  299
+  '(299 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (299 259 173 173 1 1 447))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/selectors/charting.js"
+  "charting.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  110
+  '(110 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (110 110 110 110))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/util/_text.scss"
+  "_text.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  134
+  '(134 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (134 157))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/antd/_popup.scss"
+  "_popup.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  126
+  '(126 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (126 126 126))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/Markdown/Markdown.js"
+  "Markdown.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  122
+  '(122 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (122 122 122 122 122 122 122 122 122 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/views/dynamic/components/DynamicTable.js"
+  "DynamicTable.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  294
+  '(294 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (294 294 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/styles/sass/components/_form.scss"
+  "_form.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  777
+  '(777 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (777 627 627 664 627 98 98 98 46 520 98 98 98 98 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/src/components/JsonForm/component.js"
+  "component.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1678
+  '(1678 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1678 982 982 982 1143 429 1213 1062 1050 1062 1213 429 498 429 1260 1260))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/config/webpack.config.prod.js"
+  "webpack.config.prod.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  3418
+  '(3418 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (3418 3418 3418 3006 3383 3006 2918 2918 1776 396 396 383 364 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/config/paths.js"
+  "paths.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  2488
+  '(2488 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (2488 2521 2488 2468 2488 2468 2294 2468 2488 2468 2430 2430 2430 2430 2430 2430))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/config/paths.js"
+  "paths.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  2458
+  '(2458 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (2433 217 217 217 217 2752 2752 2752 2752 2777 2752 2777 2752 2777 2752 2777))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/Nav.js"
+  "Nav.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1601
+  '(1601 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1601 1601 2037 2037 2013 2155 2155 712 712 2155 2155 2155 649 3015 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/public/custom.css"
+  "custom.css"
+  'css-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  174
+  '(174 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (174 445 445))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/grader/Assess.js"
+  "Assess.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  82
+  '(82 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (82 82 119 212 212 212 212 212 212 212 212 212 212 212 212 188))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/secure/Course.js"
+  "Course.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  2239
+  '(2239 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (2239 2239 2239 2479 2227 74 74 74 74 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/secure/Tools.js"
+  "Tools.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  3037
+  '(3037 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (3037 3277 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dotfiles/.emacs.d/prettier-js.el"
+  "prettier-js.el"
+  'emacs-lisp-mode
+  '(eldoc-mode flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode paredit-mode)
+  1730
+  '(1730 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix) (overwrite-mode))
+  '((mark-ring (1730 1730 1730 1730 1718 64))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/README.md"
+  "README.md"
+  'fundamental-mode
+  '(linum-mode undo-tree-mode projectile-mode helm-mode)
+  594
+  '(594 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-with-signature-dos) (overwrite-mode))
+  '((mark-ring (594 594 594 594 594))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/config/env.js"
+  "env.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  991
+  '(991 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (991 991 991 991 991 269 207 34 14 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/package.json"
+  "package.json"
+  'json-mode
+  '(flycheck-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  6139
+  '(6185 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (2521 2521 5 5 5 5 5 5 5 5 5 5 5 5 5 5))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/.env"
+  ".env"
+  'fundamental-mode
+  '(linum-mode undo-tree-mode projectile-mode helm-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (1 22))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/.env"
+  ".env"
+  'fundamental-mode
+  '(linum-mode undo-tree-mode projectile-mode helm-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (1 20 20 20 11))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/components/Alert/Table.js"
+  "Table.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1972
+  '(1972 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1972 1972 1972 1967 1797 1797 1797 1797 1797 1795 1876 2256 2256 2240 2547 2407))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/styles/sass/_content.scss"
+  "_content.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  96
+  '(96 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (96 96))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/styles/sass/main.scss"
+  "main.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  447
+  '(447 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (447))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/config/webpack.config.prod.js"
+  "webpack.config.prod.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  2931
+  '(2931 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (2931 2844 2922 2922 3074 3074 3073 3069 3043 3594 2650 820 820 787 653 641))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/config/webpack.config.dev.js"
+  "webpack.config.dev.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1650
+  '(1650 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1650 1591 1458 4934 3205 1650 1591 1458 4934 3205 1650 1591 1458 435 435 467))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dotfiles/.zshrc"
+  ".zshrc"
+  'sh-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  168
+  '(168 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (168 132))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/detail/AssetDetailPage.js"
+  "AssetDetailPage.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  3548
+  '(3548 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (3548 3295 3295 3653 3295 2816 3295 2810 667 667 667 667 667 2601 2599 5070))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/api/actions.js"
+  "actions.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  6904
+  '(6904 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (6904 6904 6904 6904 6905 5209 5189 2014 2014 2014 2014 2761 2010 1860 2014 1509))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/components/Date/index.js"
+  "index.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  684
+  '(684 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (684 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/AssetPage.js"
+  "AssetPage.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  631
+  '(631 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (631 631 409 407 1462 1462 1431 1311 349 349 1510 1431 1311 272 260 247))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/components/DumpTable/index.js"
+  "index.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  59
+  '(59 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (59 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/actions/assets.js"
+  "assets.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  2661
+  '(2661 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (2661 1220 1220 1220 1315 1315 1446 1315 1315 1220 1315 1220 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/actions/asset-detail.js"
+  "asset-detail.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  570
+  '(570 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (570 579 174 174 174 174 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/reducers/asset-detail.js"
+  "asset-detail.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  145
+  '(145 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (145 145 145 145 1688 1688 1688 1688 1688 1688 1688 1688 1688 1688 1688 1688))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/actions/status-image.js"
+  "status-image.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  104
+  '(104 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (104 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/actions/navigation.js"
+  "navigation.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 34 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/actions/monitor.js"
+  "monitor.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1161
+  '(1161 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1161 1163 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/components/Layout/Header.js"
+  "Header.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  531
+  '(531 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (531 530 522 487 483 483 483 387 387 291 291 291 291 291 394 394))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/detail/AssetStatusImagePage.js"
+  "AssetStatusImagePage.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  558
+  '(558 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (558 1 149 147 78 78 78 78 78 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/utils/json.js"
+  "json.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  20
+  '(20 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (20 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/detail/AssetStatusImagePageContainer.js"
+  "AssetStatusImagePageContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  111
+  '(111 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (111 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/detail/AssetDetailPageContainer.js"
+  "AssetDetailPageContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 1 1 1 1 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/act/ActPage.js"
+  "ActPage.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  207
+  '(207 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (207 207 75 75 75 75 75 75 75 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/home/Home.js"
+  "Home.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  317
+  '(317 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (317 155 33 33 33 33 33 34 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/AssetPageContainer.js"
+  "AssetPageContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  481
+  '(481 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (481 481 50 481 50 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/reducers/monitor.js"
+  "monitor.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1131
+  '(1131 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1131 1406 800 807 800 800 800 272 272 244 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/reducers/navigation.js"
+  "navigation.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/reducers/assets.js"
+  "assets.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  5433
+  '(5433 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (5433 5431 5525 5611 5594 5835 5611 5525 5424 5835 5611 5600 5525 5424 5525 5424))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/reducers/alerts.js"
+  "alerts.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/reducers/status-image.js"
+  "status-image.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  2546
+  '(2546 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (2546 526 323 312 312 282 79 41 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/index.js"
+  "index.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1123
+  '(1123 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1123 389 389 389 2030 2030 2030 2030 2030 2030 2030 2030 2075 2075 2072 2194))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/monitor/MonitorViewMenu.js"
+  "MonitorViewMenu.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  45
+  '(45 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (45 45 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/detail/StatusPaneContainer.js"
+  "StatusPaneContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  129
+  '(129 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (129 129 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/detail/StatusImageOverlayModalContainer.js"
+  "StatusImageOverlayModalContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  239
+  '(239 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (239 239 239 239 770 744 287 239 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/detail/LinkPaneContainer.js"
+  "LinkPaneContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/detail/AlertPaneContainer.js"
+  "AlertPaneContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/detail/ActionPaneContainer.js"
+  "ActionPaneContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/detail/DynamicPaneContainer.js"
+  "DynamicPaneContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  323
+  '(323 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (323 323 40 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/charts/scatter.js"
+  "scatter.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  529
+  '(529 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (529 475 86 64 60 60))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/charts/area.js"
+  "area.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  60
+  '(60 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (60 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/detail/StatusImageContainer.js"
+  "StatusImageContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  206
+  '(206 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (206 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/components/Layout/GlobalSearch.js"
+  "GlobalSearch.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  150
+  '(150 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (150 150 148 148 148 28 28 246 244 28 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/components/Layout/GlobalAlertsContainer.js"
+  "GlobalAlertsContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  38
+  '(38 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (38 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/components/Layout/GlobalScopeContainer.js"
+  "GlobalScopeContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/components/Layout/AccountContainer.js"
+  "AccountContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/components/Layout/CompanyHeaderContainer.js"
+  "CompanyHeaderContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  85
+  '(85 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (85 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/search/AssetSearchContainer.js"
+  "AssetSearchContainer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/AssetTableColumnModal.js"
+  "AssetTableColumnModal.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  590
+  '(590 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (590 591 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/components/TTTable/index.js"
+  "index.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  71
+  '(71 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (71 71 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/monitor/AddTileToMonitorViewModal.js"
+  "AddTileToMonitorViewModal.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  79
+  '(79 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (79 79 79 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/dynamic/DynamicContent.js"
+  "DynamicContent.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  28
+  '(28 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (28 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/detail/StatusPane.js"
+  "StatusPane.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  815
+  '(815 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (815 815 442 380 314 284 314 380 442 517 442 380 314 380 442 517))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/detail/StatusImageOverlayModal.js"
+  "StatusImageOverlayModal.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  2359
+  '(2359 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (2359 1791 1785 8652 7128 5578 5560 1791 1767 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/detail/PerformancePane.js"
+  "PerformancePane.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  156
+  '(156 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (156 156 156 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/detail/LinkPane.js"
+  "LinkPane.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  341
+  '(341 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (341 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/detail/AlertPane.js"
+  "AlertPane.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  77
+  '(77 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (77 28 40 28 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/detail/DynamicPane.js"
+  "DynamicPane.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  157
+  '(157 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (157 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/detail/StatusImage.js"
+  "StatusImage.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  104
+  '(104 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (104 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/components/Layout/GlobalAlerts.js"
+  "GlobalAlerts.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  144
+  '(144 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (144 69 69 69 69 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/components/Layout/GlobalScope.js"
+  "GlobalScope.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  145
+  '(145 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (145 145 70 44 44 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/components/Layout/Account.js"
+  "Account.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  630
+  '(630 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (630 630 630 630 630 615 615 615 28 28 28 36 36 184 36 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/components/Layout/CompanyHeader.js"
+  "CompanyHeader.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  241
+  '(241 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (241 241 241 241 241 241 65 65 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/search/AddClassForm.js"
+  "AddClassForm.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  88
+  '(88 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (88))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/search/AddTagForm.js"
+  "AddTagForm.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  149
+  '(149 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (149 149 149 149 149 149 149 149 149 149 149 149 149 149 149 149))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/components/JsonForm/component.js"
+  "component.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  551
+  '(551 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (551 551 551 551 13 13 13 13 13 13 13 13 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/components/JsonForm/container.js"
+  "container.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  64
+  '(64 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (64 64 64 64 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/components/Markdown/parser.js"
+  "parser.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  144
+  '(144 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (144 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/components/Markdown/Markdown.js"
+  "Markdown.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 1 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/detail/AssetDataTable.js"
+  "AssetDataTable.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  476
+  '(476 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (476 477 1 1 1 1 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/detail/DragLayer.js"
+  "DragLayer.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  869
+  '(869 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (869 2255 2234 1830 869 1830 869 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/search/AddBaseForm.js"
+  "AddBaseForm.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  237
+  '(237 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (237 235 87 115 87 38 38 38 38 38 38 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/detail/popover/container.js"
+  "container.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 543 543 543 506 442 52 543 506 442 52 543 506 442 349 349))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/charts/spark.js"
+  "spark.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  60
+  '(60 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (60 60 60 60 60 60 60 60 60 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/detail/MetricOverlayItem.js"
+  "MetricOverlayItem.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  3826
+  '(3826 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (3826 3829 3877 3847 3680 1158 1150 3877 3877 3877 474 474 474 415 474 415))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/detail/popover/component.js"
+  "component.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  77
+  '(77 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (77 159 77 159 77 159 150 169 209 226 235 241 283 443 533 443))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/components/Button/AsyncButton.js"
+  "AsyncButton.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  13
+  '(13 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (13 13 13 13 13 13 14 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/root.js"
+  "root.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  180
+  '(180 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (180 180 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/detail/dragConfig.js"
+  "dragConfig.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  308
+  '(308 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (308 593 533 308 593 533 308 593 533 308 593 533 308 157 308 533))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/search/AssetSaveSearchModal.js"
+  "AssetSaveSearchModal.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  46
+  '(46 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (46 38 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/env.js"
+  "env.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  351
+  '(351 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (351 351 351 351 351 305 305 305 239 147 381 381 381 381 381 381))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/config/env.js"
+  "env.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  494
+  '(494 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (494 494 1456 873 494 1456 1149 1149 1149 1052 1052 982 982 553 553 609))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/history.js"
+  "history.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  47
+  '(47 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (47 8 146 47 8 146 47 8 146 47 8 146 47 8 146 47))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/reducers/account.js"
+  "account.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  344
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 338 1 1 736 736 881 1 1 1 1 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/dynamic/components/DynamicTable.js"
+  "DynamicTable.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  340
+  '(340 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (340 340 340 340 340 340 340 340 340 340 340 340 340 340 340 340))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/src/views/assets/map/component.js"
+  "component.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  85
+  '(85 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (85 85 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/.projectile"
+  ".projectile"
+  'fundamental-mode
+  '(linum-mode undo-tree-mode projectile-mode helm-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (1 1 1 101 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/.projectile"
+  ".projectile"
+  'fundamental-mode
+  '(linum-mode undo-tree-mode projectile-mode helm-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 101))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/node_modules/eslint-config-react-app/index.js"
+  "index.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  5858
+  '(5858 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (5858 5185 4183 4183 863 1 5858 4436 4436 4436 4437 4436 4436 4436 4436 4436))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf/scripts/start.js"
+  "start.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  2144
+  '(2144 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (2144 1 1 8068 8069 5541 5541 5541 5541 5541 5541 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Applications/Emacs.app/Contents/Resources/etc/COPYING"
+  "COPYING"
+  'fundamental-mode
+  '(linum-mode undo-tree-mode projectile-mode helm-mode view-mode goto-address-mode)
+  1257
+  '(1257 nil)
+  t
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1257 1257))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/Views/Main/IndexReact.cshtml"
+  "IndexReact.cshtml"
+  'fundamental-mode
+  '(linum-mode undo-tree-mode projectile-mode helm-mode)
+  2
+  '(2 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-with-signature-dos) (overwrite-mode))
+  '((mark-ring (2 2 2 2 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/cvillization/src/js/components/Content.js"
+  "Content.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  3670
+  '(3670 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (3670 3670 3670 3670 3670 3670 3670 3670 3670 3670 3670 2867 2867 3670 2712 2712))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/cvillization/src/js/sections/MapSection.js"
+  "MapSection.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  2391
+  '(2391 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (2391 2391 2391 2391 2391 5660 5660 4605 3206 3188 3115 2958 1825 1507 1507 1))))
+
 (desktop-create-buffer 208
   "/Users/brentbaumgartner/cvillization/src/js/sections/Map.js"
   "Map.js"
   'web-mode
   '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  1939
-  '(1939 nil)
+  2637
+  '(2637 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (631 609 653 631 609 653 631 609 1 1))))
+  '((mark-ring (2637 2368 2320 2368 2320 2687 2687 2607 2571 2527 2483 2445 2410 2376 2376 2314))))
 
 (desktop-create-buffer 208
-  "/Users/brentbaumgartner/cvillization/src/js/constants/entities.js"
-  "entities.js"
+  "/Users/brentbaumgartner/cvillization/src/js/components/MainInput.js"
+  "MainInput.js"
   'web-mode
   '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  1329
+  5056
+  '(3324 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (2696 3324 2597 259 259 259 259 1 1 2152 2152 2597 1096 1096 255 255))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/cvillization/src/js/sections/PurchasingPower.js"
+  "PurchasingPower.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  170
+  '(170 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (170 170 1 1 1827 1827 1827 1827 1827 1827 1827 1827 1827 1827 1827 1827))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/cvillization/src/scss/_objects.map.scss"
+  "_objects.map.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  617
+  '(617 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (617 617 617 617 617 617 617 157 108 157 108 157 108 1 1 617))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/cvillization/src/routes.js"
+  "routes.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
   '(1 nil)
   nil
   nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 1 1 941 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/cvillization/src/js/components/StartButton.js"
+  "StartButton.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  349
+  '(349 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (349 349 349))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/cvillization/src/scss/index.scss"
+  "index.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode smerge-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 1292 1292 1292 1292 1292 1292 1292 1292 1292 992 992 992 671 671 666))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/cvillization/src/js/sections/Title3.js"
+  "Title3.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1855
+  '(1855 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1855 1855 1855 425 263 1855 1855 1855 1855 1855 29 29 29 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/cvillization/src/scss/_objects.infographic-section.scss"
+  "_objects.infographic-section.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  2556
+  '(2556 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (2556 2556 2556 2556 2556 2556 2556 2556 2556 2556 2556 2556 2556 2556 2556 2556))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/cvillization/src/js/sections/Title1.js"
+  "Title1.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1315
+  '(1315 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1315 1973 1973 1973 751 751 747 747 747 747 747 747 771 771 771 771))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/cvillization/src/js/components/InfographicSection.js"
+  "InfographicSection.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  359
+  '(359 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (359 359 359 359))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/cvillization/src/js/sections/intro.js"
+  "Intro.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  103
+  '(103 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (103 1897 1845 1845 1970 1339 1339 1339 1339 1956 1956 1956 1956 1956 1534 1534))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/cvillization/grommet-toolbox.config.js"
+  "grommet-toolbox.config.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 1 1 1 1 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/.tfignore"
+  ".tfignore"
+  'fundamental-mode
+  '(linum-mode undo-tree-mode projectile-mode helm-mode)
+  130
+  '(130 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-with-signature-unix) (overwrite-mode))
+  '((mark-ring (130 130 130 130 53 53 95 196 160))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/cvillization/improvements.txt"
+  "improvements.txt"
+  'text-mode
+  '(flycheck-mode linum-mode undo-tree-mode projectile-mode helm-mode)
+  352
+  '(352 nil)
+  nil
+  nil
   '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
-  '((mark-ring (1 1 1 75409 75434 75434 75434 75434 75434 26386 26386))))
+  '((mark-ring (352 352 191 191 191 429 287))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/cvillization/src/index.html"
+  "index.html"
+  'html-mode
+  '(flycheck-mode linum-mode undo-tree-mode projectile-mode helm-mode)
+  1006
+  '(1006 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (1006 1006 1006 1006 1006 1006 1006 1006 1006 1006 1099 1199 1199 1035 1035 1099))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/Views/Account/VerifyCode.cshtml"
+  "VerifyCode.cshtml"
+  'fundamental-mode
+  '(linum-mode undo-tree-mode projectile-mode helm-mode)
+  85
+  '(85 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-with-signature-dos) (overwrite-mode))
+  '((mark-ring (85 85 85 163 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/Views/Account/Login.cshtml"
+  "Login.cshtml"
+  'fundamental-mode
+  '(linum-mode undo-tree-mode projectile-mode helm-mode)
+  245
+  '(245 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-with-signature-dos) (overwrite-mode))
+  '((mark-ring (245 245 245 246 246 322 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/Views/Account/ResetPassword.cshtml"
+  "ResetPassword.cshtml"
+  'fundamental-mode
+  '(linum-mode undo-tree-mode projectile-mode helm-mode)
+  96
+  '(96 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-with-signature-dos) (overwrite-mode))
+  '((mark-ring (96 175 94 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/actions.js"
+  "actions.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  700
+  '(700 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (700 700 700 519 1103 519 700 519 700 519 700 519 1154 1154 1154 1154))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/styles/sass/components/_content.scss"
+  "_content.scss"
+  'scss-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  6271
+  '(6215 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (6215 6041 6041 6109 6109))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/webpack.config.js"
+  "webpack.config.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  263
+  '(263 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (263 434 434 434 434 1 1 440 394 394 379))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/Main.js"
+  "Main.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  2524
+  '(2524 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (2524 406 406 406 406 1 1 1 1604 1604 1604 339 339 339 339 339))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/grader/AssessForm.js"
+  "AssessForm.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  4560
+  '(4560 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (4560 4417 4561 4561 52 4632 4570 4570 3439 4570 3439 4570 3439 4570 3439 4570))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/firedux.js"
+  "firedux.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  182
+  '(182 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (182 324 180 180 119 166 166 166 166 166 166 166 166 166 166 166))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/firebase.config.js"
+  "firebase.config.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  195
+  '(195 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (195 195 195 195 195 195 195 195 193 20 20 20 20 20))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/firebase.js"
+  "firebase.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  207
+  '(207 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (207 207 207 207 207 207 207 207 207 207 207 207 207 207 207 207))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/App.js"
+  "App.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  574
+  '(574 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (574 574 617 738 780 958 780 738 617 610 503 503 738 738 738 738))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/reducers/index.js"
+  "index.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  250
+  '(250 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (250 250 250 250 250 250 250 250 241 200 183 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/config/configureStore.js"
+  "configureStore.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  317
+  '(317 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (317 420 177 177 177 177 425 177 177 177 177 177 177 177 177 177))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/cvillization/src/index.js"
+  "index.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/App_Start/BundleConfig.cs"
+  "BundleConfig.cs"
+  'fundamental-mode
+  '(linum-mode undo-tree-mode projectile-mode helm-mode)
+  2233
+  '(2233 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-with-signature-dos) (overwrite-mode))
+  '((mark-ring (2233 2233 2233 2232 2232 1928 1928 315 315 367 425 367 1 1))))
 
 (desktop-create-buffer 208
   "/Users/brentbaumgartner/cvillization/src/js/constants/taxonomy.js"
   "taxonomy.js"
   'web-mode
   '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  43
-  '(43 nil)
+  699
+  '(699 nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
-  '((mark-ring (43 1 186 186 186 186 23 23 25 188))))
+  '((mark-ring (699 699 689 689 689 689 1954 646 1 1952 646 470 470 636 636 636))))
+
+(desktop-create-buffer 208
+  "/Users/brentbaumgartner/cvillization/src/js/constants/entities.js"
+  "entities.js"
+  'web-mode
+  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
+  27945
+  '(27945 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (27945 27568 27028 26584 26107 25608 25090 24095 23571 23089 22630 22159 21685 21213 20771 20284))))
 
 (desktop-create-buffer 208
   "/Users/brentbaumgartner/cvillization/src/js/constants/index.js"
@@ -64,78 +3880,6 @@
   nil
   '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
   '((mark-ring (9511 1190 9510 1190))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/cvillization/src/js/sections/MapSection.js"
-  "MapSection.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  629
-  '(629 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (629 630 602 595 595 3548 3098 3098 3098 3098 3290 3098 3290 3098 3573 3573))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/cvillization/src/js/sections/Intro.js"
-  "Intro.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  1015
-  '(1015 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (1015 1015 999 999 999 999 999 999 999 999 999 999 999 1042 999 999))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/cvillization/src/js/components/MainInput.js"
-  "MainInput.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  4150
-  '(4150 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (4150 4150 4150 3653 3653 2821 3633 2821 2690 2821 3633 3633 3633 2821 2690 2514))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/cvillization/src/js/components/Content.js"
-  "Content.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  2681
-  '(2681 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
-  '((mark-ring (2681 2681 2681 2681 2681 2681 1709 1709 1709 1709 1463 1463 5263 5263 5263 5376))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/cvillization/src/scss/index.scss"
-  "index.scss"
-  'scss-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  561
-  '(561 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (561 561 561 561 441 441 441))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/cvillization/src/scss/_objects.infographic-section.scss"
-  "_objects.infographic-section.scss"
-  'scss-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  714
-  '(714 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (714 714 714 714 714 714 714 638 638 638 1 1))))
 
 (desktop-create-buffer 208
   "/Users/brentbaumgartner/cvillization/src/js/components/Nav.js"
@@ -174,18 +3918,6 @@
   '((mark-ring (1 1 1 1))))
 
 (desktop-create-buffer 208
-  "/Users/brentbaumgartner/cvillization/grommet-toolbox.config.js"
-  "grommet-toolbox.config.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  1
-  '(1 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (1 1 1 1 1 1 1 1))))
-
-(desktop-create-buffer 208
   "/Users/brentbaumgartner/cvillization/src/js/utils/scroll.js"
   "scroll.js"
   'web-mode
@@ -196,270 +3928,6 @@
   nil
   '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
   '((mark-ring (1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/views/assets/search/AssetSearchBar.js"
-  "AssetSearchBar.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  2510
-  '(2429 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (2429 2429 2510 2510 2419 2419 2273 2273 2273 2419 2419 2378 2273 2378 2273 2378))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/views/assets/search/AssetSearchBarContainer.js"
-  "AssetSearchBarContainer.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  1036
-  '(1036 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (1036 858 858 858 858 858 901 901 901 901 901 901 882 882 1074 1145))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/reducers/assets.js"
-  "assets.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  1101
-  '(1101 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (1101 7582 7582 7582 7582 7602 7603 1113 1101 1101 1113 241 241 7418 216 7418))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/views/assets/AssetTable.js"
-  "AssetTable.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  2384
-  '(2384 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (2384 3620 3443 3443 1431 3443 1431 3474 3474 1755 1440 949 444 137 1 1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/views/assets/AssetTableContainer.js"
-  "AssetTableContainer.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  285
-  '(285 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (285 285 285 285 285 285 319 319 276 276 266 193 162 162 391 327))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/api/actions.js"
-  "actions.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  1
-  '(1 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (1 1 1 1 1 1 1 1 1 3910 3910 3910 3910 3910 3910 3949))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/actions/assets.js"
-  "assets.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  957
-  '(957 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (957 957 957 957 957 957 957 957 957 957 957 985 967 929 929 969))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/styles/sass/components/_search.scss"
-  "_search.scss"
-  'scss-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  862
-  '(862 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (862 1148 844 1148 1134 1134 1134 1134 1134 1134 1134 2135 2135 2135 2135 2135))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/package.json"
-  "package.json"
-  'json-mode
-  '(flycheck-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  678
-  '(678 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (678 678 678 678 1 1 5672 5672 5672 5672 5672 2743 2743 2743 4737 2744))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/vendor.webpack.config.js"
-  "vendor.webpack.config.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  1692
-  '(823 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (823 817 817 817 2551 475 426 1472 1443 490 475 426 385 385 398 385))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/styles/sass/antd/_buttons.scss"
-  "_buttons.scss"
-  'scss-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  527
-  '(527 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (527 527 527 527 527 527 515 515 444 451 424 551 551 551 444 464))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/components/Layout/GlobalAlerts.js"
-  "GlobalAlerts.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  2014
-  '(2014 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (2014 52 1655 1673 1655 1673 1655 650 650 650 1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/styles/sass/antd/_alert.scss"
-  "_alert.scss"
-  'scss-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  664
-  '(664 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (664 664 664 873 1 1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/views/assets/search/AddBaseForm.js"
-  "AddBaseForm.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  351
-  '(351 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (351 351 351 2107 2107 1247 864 1247 864 1247 2088 1247 864 2088 1619 1540))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/views/assets/search/AssetSearchContainer.js"
-  "AssetSearchContainer.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  1176
-  '(1176 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (1176 1176 1120 1176 155 155 155 155 155 1 1 1513 1559 1513 1559 1513))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/views/assets/search/AddTagForm.js"
-  "AddTagForm.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  79
-  '(79 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (79 79 79 79 79 318 79 318 79 318 79 318 79 318 79 318))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/views/assets/search/AssetSearch.js"
-  "AssetSearch.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  1739
-  '(1739 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (1739 1739 1739 1739 1739 1739 2162 1739 2162 1739 2162 1992 1992 1992 1170 1170))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/main.js"
-  "main.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  1541
-  '(1541 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (1541 615 596 1 1 1 1 1 1 1 1 1544 1544 1544 1672 1672))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/reducers/index.js"
-  "index.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  1
-  '(1 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (1 1 1 1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/views/assets/search/AddClassForm.js"
-  "AddClassForm.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  473
-  '(473 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (473 473 473 473 473 473 473 473 473 473 473 473 473 473 473 473))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/selectors/assets.js"
-  "assets.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  801
-  '(801 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (801 801 801 801 691 593 489 441 489 441 489 593 691 620 593 583))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/views/assets/search/AssetSaveSearchModal.js"
-  "AssetSaveSearchModal.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  2421
-  '(2421 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (2421 1 1))))
 
 (desktop-create-buffer 208
   "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/Classes/Filters.cs"
@@ -474,186 +3942,6 @@
   '((mark-ring (1 1))))
 
 (desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/styles/sass/util/_flex.scss"
-  "_flex.scss"
-  'scss-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  94
-  '(94 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
-  '((mark-ring (94 94 94 94 94 94 94 94 94))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/styles/sass/main.scss"
-  "main.scss"
-  'scss-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  168
-  '(168 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (168 169 191 1 1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/styles/sass/util/_text.scss"
-  "_text.scss"
-  'scss-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  1
-  '(1 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/styles/sass/atoms/_paragraphs.scss"
-  "_paragraphs.scss"
-  'scss-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  1
-  '(1 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/styles/sass/antd/_tags.scss"
-  "_tags.scss"
-  'scss-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  1
-  '(1 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
-  '((mark-ring (1 1 1 1 1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/views/assets/AssetPageContainer.js"
-  "AssetPageContainer.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  614
-  '(614 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (614 617 1 1 1 1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/styles/sass/antd/_tabs.scss"
-  "_tabs.scss"
-  'scss-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  292
-  '(292 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (292 1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/views/assets/AssetPage.js"
-  "AssetPage.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  579
-  '(579 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (579 593 593 593 593 593 593 1 1 599 606 490 629 490 180 168))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/config/configureStore.js"
-  "configureStore.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  177
-  '(177 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (177 177 177 177 177 177 177 177 177 177 177 177 177 177 256 256))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/Main.js"
-  "Main.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  339
-  '(339 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (339 339 339 339 339 339 312 312 312 339 328 328 338 364 339 339))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/App.js"
-  "App.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  380
-  '(380 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (380 475 458 475 458 450 475 458 510 475 458 510 475 458 876 876))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/reducers/index.js"
-  "index.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  250
-  '(250 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (250 241 200 183 1 1 1 1 1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/actions.js"
-  "actions.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  1154
-  '(1154 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (1154 1088 1145 1088 1145 1088 1145 1088 44 44 44 746 1072 746 1072 746))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/grader/AssessForm.js"
-  "AssessForm.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  4532
-  '(4532 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (4532 52 4603 4541 4541 3439 4541 3439 4541 3439 4541 3439 4541 3439 1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/grader/questions.js"
-  "questions.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  1
-  '(1 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (1 1 1 1 1 1 1 1))))
-
-(desktop-create-buffer 208
   "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/grader/AssessContainer.js"
   "AssessContainer.js"
   'web-mode
@@ -664,54 +3952,6 @@
   nil
   '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
   '((mark-ring (500 500 500 500 500 500 500 500 500 1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/grader/Assess.js"
-  "Assess.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  1558
-  '(1558 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (1558 151 1763 1763))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/Contact.js"
-  "Contact.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  3406
-  '(3406 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
-  '((mark-ring (3406 1993 73 73 134 134 1993 36 1993 36 1993 36 1993 36 1993 36))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/config/routes.js"
-  "routes.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  1405
-  '(1405 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (1405 1241 998 923 878 878 998 923 890 823 773 710 651 595 537 480))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/components/Consulting.js"
-  "Consulting.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  13218
-  '(13218 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (13218 10275 10248 4603 4572 2853 2769 1527 1445 677 653 677 653 677 653 130))))
 
 (desktop-create-buffer 208
   "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/app/taxonomy/ops.js"
@@ -726,198 +3966,6 @@
   '((mark-ring (6726 1 1))))
 
 (desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/lean-school-center/react-router-firebase-auth/public/index.html"
-  "index.html"
-  'html-mode
-  '(flycheck-mode linum-mode undo-tree-mode projectile-mode helm-mode)
-  857
-  '(857 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (857 963 1075 1075))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/webpack.config.js"
-  "webpack.config.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  4106
-  '(4106 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
-  '((mark-ring (4106 2767 2767 2565 568 5827 5522 3393 2902 2767 2565 568 2565 568 1 1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/styles/sass/antd/_badge.scss"
-  "_badge.scss"
-  'scss-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  1
-  '(1 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/.tfignore"
-  ".tfignore"
-  'fundamental-mode
-  '(linum-mode undo-tree-mode projectile-mode helm-mode)
-  53
-  '(53 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-with-signature-unix) (overwrite-mode))
-  '((mark-ring (53 95 196 160))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/views/about/About.js"
-  "About.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  543
-  '(543 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
-  '((mark-ring (543 543 543 543 503 1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/styles/sass/components/_header.scss"
-  "_header.scss"
-  'scss-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  130
-  '(130 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (130 130 162 596 162 596 162 120 120 120 120 140 671 588 2 671))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/styles/sass/_content.scss"
-  "_content.scss"
-  'scss-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  34
-  '(34 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (34 34 106 34 1405 1405 1405 1405 1405 1405 1825 1825 1712 1670 1405 1405))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/components/Layout/Navigation.js"
-  "Navigation.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  683
-  '(683 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
-  '((mark-ring (683 683 683 557 453 1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/components/Layout/Layout.js"
-  "Layout.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  56
-  '(56 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
-  '((mark-ring (56 56 56 1200 1200 854 802 854 802 774 774 774 768 1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/components/Layout/CompanyHeader.js"
-  "CompanyHeader.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  222
-  '(222 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (222 222 206 206 206 206 206 206 206 1 1 1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/components/Button/Button.js"
-  "Button.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  376
-  '(376 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (376 376 376 376 370 370 370 370 1 1 1 1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/components/Layout/Header.js"
-  "Header.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  1268
-  '(1268 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
-  '((mark-ring (1268 1268 1268 1126 1064 1049 1268 1049 1064 1049 901 901 354 335 1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/components/Layout/Account.js"
-  "Account.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  496
-  '(496 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (496 496 496 496 496 496 496 496 496 496 496 496 496 496 496 496))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/node_modules/mapbox-gl/js/geo/transform.js"
-  "transform.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  96
-  '(96 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
-  '((mark-ring (96 4392 96 4392 96 1 1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/components/Layout/CompanyHeaderContainer.js"
-  "CompanyHeaderContainer.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  234
-  '(234 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (234 232 232 232 1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/utils/index.js"
-  "index.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  1796
-  '(1796 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (1796 1812 1812 2032 1812 1812 1812 1812 1812 1812 1812 1812 1812 1812 1812 1812))))
-
-(desktop-create-buffer 208
   "/Users/brentbaumgartner/dotfiles/.emacs.d/init.el"
   "init.el"
   'emacs-lisp-mode
@@ -928,40 +3976,4 @@
   nil
   '((tab-width . 4) (buffer-file-coding-system . prefer-utf-8-unix) (overwrite-mode))
   '((mark-ring (216 216 216 216 216 216 216 308 5455 5455 5455 5455 5482 5455 6344 6344))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dotfiles/.emacs.d/prettier-js.el"
-  "prettier-js.el"
-  'emacs-lisp-mode
-  '(eldoc-mode flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode paredit-mode)
-  1730
-  '(1730 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . prefer-utf-8-unix) (overwrite-mode))
-  '((mark-ring (1730 1718 64))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/selectors/index.js"
-  "index.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  1
-  '(1 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (1 1))))
-
-(desktop-create-buffer 208
-  "/Users/brentbaumgartner/dev/tf-workspace/ClientSide/TwinThread-WebApp/client/utils/json.js"
-  "json.js"
-  'web-mode
-  '(flycheck-mode auto-complete-mode linum-mode undo-tree-mode projectile-mode helm-mode rainbow-delimiters-mode)
-  1194
-  '(1194 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (1194 1196 1196))))
 

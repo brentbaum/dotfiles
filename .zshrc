@@ -4,7 +4,7 @@ ZSH=$HOME/.oh-my-zsh
 
 homebrew=/usr/local/bin:/usr/local/sbin
 export PATH=$homebrew:$PATH
-
+export PATH="$PATH:`yarn global bin`"
 export TERM=xterm-16color Emacs 
 
 export PATH=/usr/local/lib/python3.4/site-packages:$PATH

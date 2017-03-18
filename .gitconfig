@@ -4,7 +4,7 @@
 [core]
 	editor = atom
 	autocrlf = input
-	excludesfile = /Users/brent/.gitignore_global
+	excludesfile = /Users/brentbaumgartner/.gitignore_global
 [help]
 	autocorrect = 1
 [push]
