@@ -1,0 +1,27 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ~/.claude/hooks/session-start.sh"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "agent",
+            "prompt": "You just finished a session. Reflect on the conversation and update memory files.\n\nIMPORTANT: Read existing memory files FIRST to avoid duplicates.\n\n1. DAILY CONTEXT: Key decisions, work done, important context for continuity.\n   → Append to ~/.claude/memory/daily/$(date +%Y-%m-%d).md\n   Create the file if it doesn't exist (start with '# YYYY-MM-DD' header).\n   Add a new '## Session' section. Keep entries to 1-2 lines each.\n\n2. CORRECTIONS: Anything the user corrected you on.\n   → Append to ~/.claude/memory/learnings.md under today's date header.\n\n3. STABLE PREFERENCES: Tool choices, style preferences, workflow patterns the user demonstrated or stated. Only save genuinely new preferences not already in preferences.md.\n   → Update ~/.claude/memory/preferences.md under the right category.\n\n4. USER PROFILE: Any new facts about who the user is (name, role, projects, timezone).\n   → Update ~/.claude/memory/user-profile.md\n\nRules:\n- Read each file before writing to it. Do NOT duplicate existing entries.\n- Keep entries concise (1-2 lines each).\n- Use consistent markdown formatting.\n- If nothing new was learned, write nothing. Not every session teaches something.\n- Never remove existing entries, only append or update.\n- Create ~/.claude/memory/daily/ directory if it doesn't exist.",
+            "timeout": 120
+          }
+        ]
+      }
+    ]
+  }
+}
