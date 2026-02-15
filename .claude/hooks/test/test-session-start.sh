@@ -258,6 +258,54 @@ assert_contains "has today content" "today's work" "$output"
 assert_contains "has yesterday content" "yesterday's work" "$output"
 teardown
 
+# Test 13: Bootstraps user-profile.md if missing
+echo "-- bootstraps user-profile.md if missing"
+setup
+run_hook >/dev/null
+assert_file_exists "creates user-profile.md" "$CLAUDE_MEMORY_DIR/user-profile.md"
+content=$(cat "$CLAUDE_MEMORY_DIR/user-profile.md")
+assert_contains "user-profile has header" "# User Profile" "$content"
+assert_contains "user-profile has Name field" "Name:" "$content"
+teardown
+
+# Test 14: Bootstraps preferences.md if missing
+echo "-- bootstraps preferences.md if missing"
+setup
+run_hook >/dev/null
+assert_file_exists "creates preferences.md" "$CLAUDE_MEMORY_DIR/preferences.md"
+content=$(cat "$CLAUDE_MEMORY_DIR/preferences.md")
+assert_contains "preferences has header" "# Preferences" "$content"
+assert_contains "preferences has Code Style section" "## Code Style" "$content"
+teardown
+
+# Test 15: Bootstraps learnings.md if missing
+echo "-- bootstraps learnings.md if missing"
+setup
+run_hook >/dev/null
+assert_file_exists "creates learnings.md" "$CLAUDE_MEMORY_DIR/learnings.md"
+content=$(cat "$CLAUDE_MEMORY_DIR/learnings.md")
+assert_contains "learnings has header" "# Learnings & Corrections" "$content"
+teardown
+
+# Test 16: Does NOT overwrite existing memory files
+echo "-- does not overwrite existing memory files"
+setup
+mkdir -p "$CLAUDE_MEMORY_DIR"
+echo "# User Profile
+- Name: Alice" > "$CLAUDE_MEMORY_DIR/user-profile.md"
+echo "# Preferences
+## Code Style
+- Use tabs" > "$CLAUDE_MEMORY_DIR/preferences.md"
+printf "# Learnings & Corrections\n\n## 2026-01-01\n- Always use ruff\n" > "$CLAUDE_MEMORY_DIR/learnings.md"
+run_hook >/dev/null
+up_content=$(cat "$CLAUDE_MEMORY_DIR/user-profile.md")
+pref_content=$(cat "$CLAUDE_MEMORY_DIR/preferences.md")
+learn_content=$(cat "$CLAUDE_MEMORY_DIR/learnings.md")
+assert_contains "user-profile preserved" "Alice" "$up_content"
+assert_contains "preferences preserved" "Use tabs" "$pref_content"
+assert_contains "learnings preserved" "Always use ruff" "$learn_content"
+teardown
+
 # --- Report ---
 
 echo ""

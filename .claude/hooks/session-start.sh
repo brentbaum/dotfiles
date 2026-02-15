@@ -18,6 +18,38 @@ YESTERDAY=$(date -d yesterday +%Y-%m-%d 2>/dev/null || date -v-1d +%Y-%m-%d 2>/d
 # Ensure directories exist
 mkdir -p "$MEMORY_DIR/daily" 2>/dev/null || true
 
+# Bootstrap core memory files if they don't exist (so stop hook can always read/append)
+if [ ! -f "$MEMORY_DIR/user-profile.md" ]; then
+  cat > "$MEMORY_DIR/user-profile.md" 2>/dev/null <<'TMPL' || true
+# User Profile
+- Name:
+- Timezone:
+- Role:
+
+## Communication Style
+
+## Current Projects
+TMPL
+fi
+
+if [ ! -f "$MEMORY_DIR/preferences.md" ]; then
+  cat > "$MEMORY_DIR/preferences.md" 2>/dev/null <<'TMPL' || true
+# Preferences
+
+## Code Style
+
+## Tools & Workflow
+
+## Communication
+
+## Environment
+TMPL
+fi
+
+if [ ! -f "$MEMORY_DIR/learnings.md" ]; then
+  echo "# Learnings & Corrections" > "$MEMORY_DIR/learnings.md" 2>/dev/null || true
+fi
+
 # Create today's daily log if it doesn't exist
 TODAY_FILE="$MEMORY_DIR/daily/$TODAY.md"
 if [ ! -f "$TODAY_FILE" ]; then
